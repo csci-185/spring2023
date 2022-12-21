@@ -1,11 +1,11 @@
 ---
 layout: two-column
 show_schedule: 1
-title: "Quiz 1: HTML & CSS"
+title: "Quiz 1: HTML & Web Architecture"
 type: quiz
 draft: 1
 num: 1
-due_date: 2023-02-08
+due_date: 2023-02-10
 # exercise_url: "quiz01.zip"
 ---
 

@@ -1,10 +1,10 @@
 ---
 layout: module
-title: Semantic HTML & Accessibility
+title: "Advanced CSS Techniques"
 type: module
-num: 3
+num: 7
 draft: 1
-due_date: 2023-01-30
+due_date: 2023-02-27
 ---
 
 

@@ -7,7 +7,6 @@ layout: default
 {% assign dateEnd = site.term_end_date | date: '%s' | times: 1 %}
 {% assign secondsPerDay = 86400 %}
 {% assign num_weeks = dateEnd | minus: dateStart | divided_by: secondsPerDay | divided_by: 7 %}
-<div>{{num_weeks}}</div>
 
 <!-- This for loop is a hack. It generates MWF dates between a date range -->
 {% assign dates = "" | split: ',' %}
@@ -55,6 +54,8 @@ layout: default
         </thead>
         <tbody>
         {% for date in dates %}
+            {% assign topic = site.lectures | where: 'due_date', date | where: 'type', 'module' | last %}
+            {% assign holiday = site.lectures | where: 'due_date', date | where: 'type', 'holiday' | last %}
             {% assign lecture = main_listing | where: 'due_date', date | last %}
             <!-- Calculate the Week -->
             {% assign dateStart = site.term_start_date | date: '%s' %}
@@ -62,7 +63,14 @@ layout: default
             {% assign diffSeconds = lectureDate | minus: dateStart %}
             {% assign diffDays = diffSeconds | divided_by: 3600 | divided_by: 24 | plus: 1 %}
             {% assign week = diffDays | divided_by: 7 | plus: 1 %}
-            <tr>
+            {% assign rowClass = "" %} 
+            {% if topic %}
+                {% assign rowClass = "section" %}
+            {% endif %}
+            {% if holiday %}
+                {% assign rowClass = "holiday" %}
+            {% endif %}
+            <tr class="{{rowClass}}">
                 <th>
                 {% assign mod = diffDays | modulo: 7 %}
 

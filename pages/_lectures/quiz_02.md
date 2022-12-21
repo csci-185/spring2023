@@ -1,10 +1,10 @@
 ---
 layout: two-column
-title: "Quiz: Programming using JavaScript"
+title: "Quiz: CSS Techniques"
 type: quiz
 draft: 1
 num: 2
-due_date: 2023-04-05
+due_date: 2023-03-03
 ---
 
 <style>
