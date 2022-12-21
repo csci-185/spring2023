@@ -1,10 +1,10 @@
 ---
 layout: module
-title: Design with Accessibility in Mind
+title: "Conditional Logic"
 type: module
-num: 3
+num: 10
 draft: 1
-due_date: 2023-01-30
+due_date: 2023-03-27
 ---
 
 

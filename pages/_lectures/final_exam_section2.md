@@ -1,10 +1,9 @@
 ---
 layout: two-column
-title: "Quiz 3: Programming"
-type: quiz
+title: "Final Exam: Section 2 (11:30AM-2:00PM)"
+type: exam
 draft: 1
-num: 3
-due_date: 2023-04-14
+due_date: 2023-04-28
 ---
 
 

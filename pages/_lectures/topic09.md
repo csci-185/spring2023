@@ -1,10 +1,10 @@
 ---
 layout: module
-title: Design with Accessibility in Mind
+title: "Functions & Events"
 type: module
-num: 3
+num: 9
 draft: 1
-due_date: 2023-01-30
+due_date: 2023-03-20
 ---
 
 

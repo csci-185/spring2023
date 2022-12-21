@@ -3,13 +3,13 @@ layout: syllabus
 title: Syllabus
 permalink: /syllabus/
 course: "CSCI 185: Intro to Computer Programming for the Web"
-term: "Fall, 2022"
+term: "Spring 2023"
 email: svanwart@unca.edu
 prerequisites: "None"
 office_hours: "MWF 2pm - 3pm (in person), Rhoades Robinson Hall, Rm. 220"
 professor: "Dr. Sarah Van Wart (she/her)"
-section1: "MWF 12:30-1:45PM, Zeis Hall, Rm. 203"
-section2: "MWF 3:30-4:45PM, Zeis Hall, Rm. 203"
+section1: "MWF 9:30-10:45PM, Zeis Hall, Rm. 203"
+section2: "MWF 11:00-12:15PM, Zeis Hall, Rm. 203"
 notes: "Students may receive credit for ONLY ONE of the following courses: CSCI 182, 183 or 185."
 # include_schedule: 1
 ---
@@ -51,31 +51,28 @@ CSCI 185 is an introduction to web design and web development, and assumes no pr
 ### About Web Design & Development
 Websites are living documents that require multiple forms of expertise to design and build. Some of the most important considerations fall outside of what is typically considered computer science, such as understanding the needs of the users and organizations and the potential implications of design decisions; or crafting clean, engaging visual designs. Other, equally important considerations are much more technical -- writing code with HTML, CSS, and JavaScript, thinking about how information travels over the Internet, and learning new frameworks, architectural styles, and design patterns. Moreover, as web techniques/technologies continue to evolve, it is also import to "learn how to learn" about new technologies, including interpreting technical documentation, modifying and adapting sample code, and thinking about whether or not to use an external library (versus building something from scratch). Developing these competencies involves cultivating a variety of practices and dispositions (versus acquiring some fixed body of knowledge).
 
-Taking this course means committing – for 17 weeks – to practicing your emergent coding skills, experimenting with how you want to convey information to make it engaging and digestable, turning in weekly assignments, committing to doing homework, being present in class for individual and group activities, and most importantly, persevering when things get confusing / difficult and asking questions. Your enjoyment and success in this course depends on your commitment to showing up, engaging, and practicing your developing skills and ideas.
+Taking this course means committing – for 16 weeks – to practicing your emergent coding skills, experimenting with how you want to convey information to make it engaging and digestable, turning in weekly assignments, committing to doing homework, being present in class for individual and group activities, and most importantly, persevering when things get confusing / difficult and asking questions. Your enjoyment and success in this course depends on your commitment to showing up, engaging, and practicing your developing skills and ideas.
 
 ## Course Format
 The course includes a mix of lectures, in-class activities, tutorials, quizzes, homework, and projects. It is your responsibility to keep up-to-date on class material and announcements, as the schedule is subject to change. This includes material presented and announcements made in class, via email, or on Moodle.
 
-### Class Meetings
-We will use our scheduled class time to go over web design and development concepts, do practice problems together and make sure your questions get answered. Class meetings will be in person. Organizationally, some topics/modules span multiple lectures (see the [course schedule](../)). Most class sessions have accompanying readings.
+### Class Participation and In-Class Exercises (20%)
+We will use our scheduled class time to go over web design and development concepts, do practice problems together and make sure your questions get answered. Class meetings will be in person. Organizationally, most topics will be about a week.... (see the [course schedule](../)). Most class sessions have accompanying readings.
 
-### Lecture
-On Mondays and Wednesdays, we will cover new topics, discuss the readings, and complete short exercises to reinforce your understanding.
+* I will take attendance, which will comprise
 
-### Tutorial Sessions (20%)
-Every Friday, you will complete a coding / design "tutorial" (mandatory attendance). Tutorials are intended to help you:
+
+### Tutorials (20%)
+Most Fridays, we will complete a coding / design "tutorial." Tutorials are intended to help you:
 1. Become familiar with the types of strategies you might use to approach problems (which will be closely related to the homework / projects).
 1. Get comfortable writing lots of programs (practice makes perfect!)
 1. Assess what you know and don't know, so that you can make a plan to review various ideas and/or attend office hours.
 
-### Homework (40%)
-You will be given 5 homework assignments that are intended to give you additional practice with the course ideas beyond the tutorials. They are each designed to take between 4-6 hours to complete, so leave yourself enough time!
+### Homework & Projects (40%)
+You will be given up to 10 homework assignments that are intended to give you additional practice with the course ideas beyond the tutorials. They are each designed to take between 4-6 hours to complete, so leave yourself enough time!
 
-### Projects (30%)
-This course has two projects. The intent of the first project is to help you master some ideas in programming (variables, data types, loops, conditionals, and functions) by making an interactive animation. The intent of the second project is to give you the time and space to make a website of your choosing. For your second project, you may work alone or in a group of up to three people. The evaluation criteria for your final project will be posted when the assignment is released.
-
-### Quizzes (10%)
-There will also be 3 quizzes, which are intended to ensure that you understand some basic programming and web-related concepts. You may drop your lowest quiz score. 
+### Quizzes & Final Exam (20%)
+There will be 3 quizzes, which are intended to ensure that you understand some basic programming and web-related concepts. Your final exam score can replace one of your quiz scores if you did poorly on a quiz. 
 
 ## Course Materials & Resources
 

@@ -1,6 +1,6 @@
 ---
 layout: module
-title: Introduction to CSS
+title: Intro to CSS
 type: module
 num: 4
 draft: 1
