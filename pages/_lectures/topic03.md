@@ -2,7 +2,6 @@
 layout: module
 title: Design with Accessibility in Mind
 type: module
-num: 3
 draft: 1
 due_date: 2023-01-30
 ---

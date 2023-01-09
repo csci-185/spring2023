@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Introduction to GitHub
+title: Publish your first web page using GitHub
 type: tutorial
 abbreviation: Tutorial 2
 draft: 1

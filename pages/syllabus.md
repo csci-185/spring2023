@@ -4,12 +4,14 @@ title: Syllabus
 permalink: /syllabus/
 course: "CSCI 185: Intro to Computer Programming for the Web"
 term: "Spring 2023"
-email: svanwart@unca.edu
 prerequisites: "None"
-office_hours: "MWF 2pm - 3pm (in person), Rhoades Robinson Hall, Rm. 220"
+office_hours: "MWF 4pm - 5pm (in person), Rhoades Robinson Hall, Rm. 220"
 professor: "Dr. Sarah Van Wart (she/her)"
+professor_email: svanwart@unca.edu
 section1: "MWF 9:30-10:45PM, Zeis Hall, Rm. 203"
 section2: "MWF 11:00-12:15PM, Zeis Hall, Rm. 203"
+ta: "Nova Holland (they / them)"
+ta_email: ahollan3@unca.edu
 notes: "Students may receive credit for ONLY ONE of the following courses: CSCI 182, 183 or 185."
 # include_schedule: 1
 ---
@@ -100,7 +102,12 @@ Before each class, you may be assigned some pre-recorded videos, readings, or tu
 ## Getting Questions Answered
 
 ### Office Hours
-My office hours are every Monday, Wednesday, and Friday from 5-6PM. All questions are welcomed, including (but are not limited to):
+Sarah's office hours are every Monday, Wednesday, and Friday from 4-5PM. 
+
+### Nova's Office Hours
+Nova will also be hosting weekly office hours / study sessions. Time TBD.
+
+During our office hours, all questions are welcomed, including (but are not limited to):
 
 {:.compact}
 * I don't know where to start in this week's homework. Can you help?
@@ -114,54 +121,49 @@ You may also talk to me about concerns about your progress in the course, person
 
 
 ## Grading
-Your course grade is calculated based on 200 points as follows:
+Your course grade is calculated based on homework and projects, quizzes, tutorials, and attendance / participation:
 
-{:.medium}
-| **2 Projects** | 2 x 30 Points | 60 Points | 30% |
-| **3 Quizzes** | 2 x 10 Points (lowest score dropped) | 20 Points | 10% |
-| **5 Homeworks** | 5 x 16 Points | 80 Points | 40% |
-| **10 Tutorials** (of 14) | 10 x 4 Points (lowest 4 scores dropped) | 40 Points | 20% |
-| | | **200 Points** | **100%** |
+{:.small}
+| **Homework and Projects** | 50% |
+| **Quizzes** | 20% |
+| **Tutorials** | 15% |
+| **Attendance & Participation** | 15% |
 
 Final grades are assigned on a fixed scale: 93-100 is 
 an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 
 1. Final course grades will not be rounded or curved.
-1. There will not be a final exam, but you will be presenting your final projects during exam time.
+1. There will not be a final exam, but final exam time will be used for the quiz.
 
 > ### NOTE: Leniency is built into the course
-> Because there are unprecedented and uncertain times, I have built leniency into the design of the class. You will be able to:
-> * drop your lowest quiz score (best 2 of 3)
-> * Keep your best 10 tutorial scores (best 10 of 14)
+> You can drop your lowest quiz and your lowest tutorial score. You may also miss **three** class sessions without your grade being affected.
 >
-> Use this leniency wisely. In other words, skipping Quiz 1 and Tutorials 1-4 is an ill-advised approach. I will not grant additional exceptions unless the circumstances are exceptional, and this will need to be done in coordination with Dean of Student's office.
+> Use this leniency wisely. I will not grant additional exceptions unless the circumstances are exceptional, and this will need to be done in coordination with Dean of Student's office.
 
-{:.update}
-> ### Homework & Project Grading (Updated)
-> Homework will be due approximately every other week at 11:59pm on the specified date. Homework will be graded according to a published rubric that will be given when the assignment is released. 
-> 
-> #### Late Policy
-> Homework and project assignments must be submitted before the due time, otherwise you will receive a 20% late penalty. 
-> 
-> #### Resubmission Policy
-> If you did not successfully complete the objectives of the homework / project, you may correct your errors and resubmit. However, your grade will be penalized 10% with each subsequent attempt. 
-> Some example scenarios:
-> * **Scenario 1:** I earn 60% on my homework assignment and decide to resubmit. I earn a 90% on my second attempt. My final HW score is an 80%.
-> * **Scenario 2:** I earn an 80% on HW1 but turn it in late (so 20% late penalty applied = 60%). I decide to resubmit and earn an 100% on my second attempt. But, 20% penalty + 10% resubmit penalty applied, so I earn a 70%.
+### Homework & Project Grading
+Homework will be due approximately every other week at 11:59pm on the specified date. Homework will be graded according to a published rubric that will be given when the assignment is released. 
+
+#### Late Policy
+* Homework and project assignments must be submitted before the due time, otherwise you will receive a 20% late penalty. No homework will be accepted 30 days after the due date.
+ 
+#### Resubmission Policy
+If you did not successfully complete the objectives of the homework / project, you may correct your errors and resubmit. However, your grade will be penalized 10% with each subsequent attempt. 
+Some example scenarios:
+* **Scenario 1:** I earn 60% on my homework assignment and decide to resubmit. I earn a 90% on my second attempt. My final HW score is an 80%.
+* **Scenario 2:** I earn an 80% on HW1 but turn it in late (so 20% late penalty applied = 60%). I decide to resubmit and earn an 100% on my second attempt. But, 20% penalty + 10% resubmit penalty applied, so I earn a 70%.
 
 ### Tutorial Grading
-Attendance is **mandatory** at all tutorial sessions. Tutorials will be graded pass / fail. You will earn a passing grade if all of the following conditions are met.
+Tutorials will be graded according to the following scale (from 0-3 points):
 
-{:.compact}
-1. You attended the tutorial.
-1. You put in a good faith effort.
-1. You submitted your work to Moodle.
+| 0pts | Not attempted | Assignment not submitted. |
+| 1pt | Check Minus | Assignment attempted but less than half of it was completed correctly. |
+| 2pts | Check | Most of the assigment was completed; works as expected. |
+| 3pts | Check Plus | Assigment completed. Works as expected. |
 
-Tutorials are due by 11:59PM on Friday (but I recommend that you just submit them at the end of class). I **do not accept late tutorials** because I post the solutions right away. Even if you don't get everything working perfectly, you will still get full credit if you demonstrate a good-faith effort. You must complete **at least 10 tutorials**, with a passing grade to get full credit for the tutorial portion of the class -- but you are encouraged to complete them all. 
+Tutorials are due by 11:59PM on Friday (but I recommend that you just submit them at the end of class). I **do not accept late tutorials** because I post the solutions right away.
 
-### Project Grading
-Projects are each worth 30 points, and a rubric will be published to communicate how you will be evaluated. The second project will be broken up into a series of deliverables that will be due throughout the second half of the semester.
-* Same late / resubmission policy as homework (see above).
+### Quizzes
+There will be 3 quizzes over the course of the semester. The purpose of the quizzes to to ensure that you understand the programming and design concepts that we have been studying.
 
 ### Regrading Policy
 I have been known to make the occasional grading error. If you have any grading questions/concerns, please email me within a week to resolve the issue.
@@ -171,7 +173,7 @@ I have been known to make the occasional grading error. If you have any grading 
 ### General
 * No food, no drinks, and no water inside the classroom. If you need to eat or drink, please step outside the classroom (away from the computers) to do so.
 * Be respectful of others during classroom discussions and presentations.
-* We may have the occasional remote class session. We can decide as a class how we want to do that.
+* We may have the occasional remote class session.
 
 ### COVID Policies
 * **Masking.** Currently, there is no masking mandate at UNCA with the exception of healthcare settings and University shuttles. Please respect individuals’ personal decisions to either wear or not wear a mask in any given circumstance.
@@ -181,9 +183,6 @@ I have been known to make the occasional grading error. If you have any grading 
 
 ### Academic Honesty
 In the past, there have been a few unfortunate instances in which students have presented work other than their own. Here are some guidelines to help you understand what is and is not appropriate"
-
-#### Tutorials
-Helping other students with their in-class tutorial code is allowed and encouraged, but each student should type their own solution. 
 
 #### Homework and Project Work
 You are allowed and encouraged to discuss general approaches to solving problems, but all work you submit must be your own. Working “together” and presenting variants of the same file is not acceptable. Here are some specific guidelines to make sure you don’t cross the line:
@@ -203,7 +202,6 @@ All cases of academic dishonesty will be reported to the Assistant Provost.
 
 ### Class Cancellation Policy
 If a class meeting is canceled or due dates are moved due to inclement weather or any other reason, I will inform you via campus email (ending with unca.edu).
-
 
 
 
