@@ -25,7 +25,7 @@ Why did the Internet take off so quickly? Why does it look the way it does? In o
 * Why is privacy such a huge concern for the Web / Internet?
 * How does life online shape life offline (and vice versa)? 
 
-### Friday: Societal Considerations
+<!-- ### Friday: Societal Considerations
 While there are *many* societal considerations associated with the Internet, for your first tutorial, you will consider 3: privacy, censorship, and representation. Please read the following short articles: 
 
 * Data Privacy: <a href="https://teachprivacy.com/10-reasons-privacy-matters/">10 Reasons Why Data Privacy Matters</a>. Daniel Solove, 2014.
@@ -33,19 +33,5 @@ While there are *many* societal considerations associated with the Internet, for
 * Censorship: https://cyber.harvard.edu/pubrelease/internet-control/
 * Representation: Wikipedia?
 {:.compact}
-
-{:.blockquote-no-margin}
-> ## Guiding Questions
-> ### Technical Questions
-> * What is the Internet and how does it work?
-> * How has it evolved over time?
-> * How is it organized and who is in charge of it?
-> * What is the World Wide Web and how does it work?
->
-> ### Social Questions
-> * How does life online shape life offline?
-> * Why is privacy such a huge concern for the Web / Internet?
-> * How can organizations and governments censor Internet content, and why might they do this?
-> * Does the Internet amplify all voices equally?
-> {:.compact}
+ -->
 

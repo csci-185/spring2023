@@ -27,8 +27,10 @@ Before we start building websites, let's take some time to understand how the In
 -->
 
 ## Slides
-1. [Intro to the course](https://docs.google.com/presentation/d/1lBGszqVO9RNqOPKeLstZ0tfVS_-b46ON8lqeuDTowhA/edit?usp=sharing)
-2. [Intro to the Internet](https://docs.google.com/presentation/d/14wLlDdn-Q65tVWn1er_iYIS1DTNVhOJ5qco-sU6qyzc/edit?usp=sharing)
+Slides will be posted before class.
+
+<!-- 1. [Intro to the course](https://docs.google.com/presentation/d/1lBGszqVO9RNqOPKeLstZ0tfVS_-b46ON8lqeuDTowhA/edit?usp=sharing)
+2. [Intro to the Internet](https://docs.google.com/presentation/d/14wLlDdn-Q65tVWn1er_iYIS1DTNVhOJ5qco-sU6qyzc/edit?usp=sharing) -->
 
 
 ## Activities

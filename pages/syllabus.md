@@ -58,23 +58,22 @@ Taking this course means committing – for 16 weeks – to practicing your emer
 ## Course Format
 The course includes a mix of lectures, in-class activities, tutorials, quizzes, homework, and projects. It is your responsibility to keep up-to-date on class material and announcements, as the schedule is subject to change. This includes material presented and announcements made in class, via email, or on Moodle.
 
-### Class Participation and In-Class Exercises (20%)
-We will use our scheduled class time to go over web design and development concepts, do practice problems together and make sure your questions get answered. Class meetings will be in person. Organizationally, most topics will be about a week.... (see the [course schedule](../)). Most class sessions have accompanying readings.
+### Class Participation and In-Class Exercises (15%)
+We will use our scheduled class time to go over web design and development concepts, do practice problems together and make sure your questions get answered. Class meetings will be in person. Organizationally, most topics will span about a week (see the [course schedule](../)). Most class sessions have accompanying readings.
 
-* I will take attendance, which will comprise
+* I will take attendance during every class session. You may miss three class sessions -- no questions asked -- without a grade penalty. Any additional absences (beyond the three "freebies") will impact your participation grade (and more to the point, your capacity to productively engage with the class).
 
-
-### Tutorials (20%)
+### Tutorials (15%)
 Most Fridays, we will complete a coding / design "tutorial." Tutorials are intended to help you:
 1. Become familiar with the types of strategies you might use to approach problems (which will be closely related to the homework / projects).
 1. Get comfortable writing lots of programs (practice makes perfect!)
 1. Assess what you know and don't know, so that you can make a plan to review various ideas and/or attend office hours.
 
-### Homework & Projects (40%)
-You will be given up to 10 homework assignments that are intended to give you additional practice with the course ideas beyond the tutorials. They are each designed to take between 4-6 hours to complete, so leave yourself enough time!
+### Homework & Projects (50%)
+You will be given regular homework assignments that are intended to give you additional practice with the course ideas beyond the tutorials. They are each designed to take between 4-6 hours to complete, so leave yourself enough time!
 
-### Quizzes & Final Exam (20%)
-There will be 3 quizzes, which are intended to ensure that you understand some basic programming and web-related concepts. Your final exam score can replace one of your quiz scores if you did poorly on a quiz. 
+### Quizzes (20%)
+There will be 3 quizzes, which are intended to ensure that you understand some basic programming and web-related concepts. Your Quiz 3 score can replace one of your previous quiz scores if you did poorly on either Quiz 1 or Quiz 2. 
 
 ## Course Materials & Resources
 
@@ -136,7 +135,9 @@ an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 1. There will not be a final exam, but final exam time will be used for the quiz.
 
 > ### NOTE: Leniency is built into the course
-> You can drop your lowest quiz and your lowest tutorial score. You may also miss **three** class sessions without your grade being affected.
+> * You can drop your lowest tutorial score. 
+> * You may miss **three** class sessions without your participation grade being affected.
+> * You may resubmit assigments with a 10% penalty.
 >
 > Use this leniency wisely. I will not grant additional exceptions unless the circumstances are exceptional, and this will need to be done in coordination with Dean of Student's office.
 
@@ -144,7 +145,7 @@ an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 Homework will be due approximately every other week at 11:59pm on the specified date. Homework will be graded according to a published rubric that will be given when the assignment is released. 
 
 #### Late Policy
-* Homework and project assignments must be submitted before the due time, otherwise you will receive a 20% late penalty. No homework will be accepted 30 days after the due date.
+* Homework and project assignments must be submitted before the due time. Late work will be accepted within 30 days of the due date/time, with a 20% late penalty. No homework will be accepted if it is submitted after 30 days have passed.
  
 #### Resubmission Policy
 If you did not successfully complete the objectives of the homework / project, you may correct your errors and resubmit. However, your grade will be penalized 10% with each subsequent attempt. 

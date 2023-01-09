@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Analyze a Platform
+title: Analyze an Internet Platform
 type: tutorial
 draft: 1
 points: 4
