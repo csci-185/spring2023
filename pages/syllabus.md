@@ -72,8 +72,11 @@ Most Fridays, we will complete a coding / design "tutorial." Tutorials are inten
 ### Homework & Projects (50%)
 You will be given regular homework assignments that are intended to give you additional practice with the course ideas beyond the tutorials. They are each designed to take between 4-6 hours to complete, so leave yourself enough time!
 
-### Quizzes (20%)
-There will be 3 quizzes, which are intended to ensure that you understand some basic programming and web-related concepts. Your Quiz 3 score can replace one of your previous quiz scores if you did poorly on either Quiz 1 or Quiz 2. 
+### Quizzes (10%)
+There will be 2 quizzes, which are intended to ensure that you understand the web design and programming and concepts relevant to the course. Your final exam score can replace one of your quiz scores if you did poorly on a quiz.
+
+### Final Exam (10%)
+There will be a cumulative final exam that will be administered during your regularly scheduled final exam slot.
 
 ## Course Materials & Resources
 
@@ -106,6 +109,7 @@ Sarah's office hours are every Monday, Wednesday, and Friday from 4-5PM.
 ### Nova's Office Hours
 Nova will also be hosting weekly office hours / study sessions. Time TBD.
 
+### What questions can I ask?
 During our office hours, all questions are welcomed, including (but are not limited to):
 
 {:.compact}
@@ -124,9 +128,10 @@ Your course grade is calculated based on homework and projects, quizzes, tutoria
 
 {:.small}
 | **Homework and Projects** | 50% |
-| **Quizzes** | 20% |
 | **Tutorials** | 15% |
 | **Attendance & Participation** | 15% |
+| **Quizzes** | 10% |
+| **Final Exam** | 10% |
 
 Final grades are assigned on a fixed scale: 93-100 is 
 an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
@@ -138,6 +143,7 @@ an A, 90-92.99 is an A-, 87-89.99 is a B+, etc. Some other logistics:
 > * You can drop your lowest tutorial score. 
 > * You may miss **three** class sessions without your participation grade being affected.
 > * You may resubmit assigments with a 10% penalty.
+> * Your final exam score may replace one of your quiz scores.
 >
 > Use this leniency wisely. I will not grant additional exceptions unless the circumstances are exceptional, and this will need to be done in coordination with Dean of Student's office.
 
@@ -163,8 +169,8 @@ Tutorials will be graded according to the following scale (from 0-3 points):
 
 Tutorials are due by 11:59PM on Friday (but I recommend that you just submit them at the end of class). I **do not accept late tutorials** because I post the solutions right away.
 
-### Quizzes
-There will be 3 quizzes over the course of the semester. The purpose of the quizzes to to ensure that you understand the programming and design concepts that we have been studying.
+### Quizzes & Final Exam
+There will be 2 quizzes and one final exam over the course of the semester. The purpose of these assessments is to ensure that you understand the programming and design concepts that we have been studying.
 
 ### Regrading Policy
 I have been known to make the occasional grading error. If you have any grading questions/concerns, please email me within a week to resolve the issue.
@@ -184,6 +190,9 @@ I have been known to make the occasional grading error. If you have any grading 
 
 ### Academic Honesty
 In the past, there have been a few unfortunate instances in which students have presented work other than their own. Here are some guidelines to help you understand what is and is not appropriate"
+
+#### Tutorials
+Helping other students with their in-class tutorial code is allowed and encouraged, but each student should type their own solution unless otherwise specified in the Tutorial instructions.
 
 #### Homework and Project Work
 You are allowed and encouraged to discuss general approaches to solving problems, but all work you submit must be your own. Working “together” and presenting variants of the same file is not acceptable. Here are some specific guidelines to make sure you don’t cross the line:
