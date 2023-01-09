@@ -5,8 +5,8 @@ permalink: /syllabus/
 course: "CSCI 185: Intro to Computer Programming for the Web"
 term: "Spring 2023"
 prerequisites: "None"
-office_hours: "MWF 4pm - 5pm (in person), Rhoades Robinson Hall, Rm. 220"
-professor: "Dr. Sarah Van Wart (she/her)"
+office_hours: "MWF 3:30pm - 4:30pm (in person), Rhoades Robinson Hall, Rm. 220 or by appointment."
+professor: "Dr. Sarah Van Wart (she / her)"
 professor_email: svanwart@unca.edu
 section1: "MWF 9:30-10:45PM, Zeis Hall, Rm. 203"
 section2: "MWF 11:00-12:15PM, Zeis Hall, Rm. 203"
@@ -49,6 +49,8 @@ CSCI 185 is an introduction to web design and web development, and assumes no pr
 > * Some of the popular web application frameworks that are widely used in industry (e.g., React, Vue, jQuery)
 > * Making native apps (iOS via Swift; Android via Java)
 > * SCSS and SASS (languages that transpile to CSS), CoffeeScript, TypeScript (languages that transpile to JavaScript)
+>
+> If you are interested in these ideas, please check out CSCI344!
 
 ### About Web Design & Development
 Websites are living documents that require multiple forms of expertise to design and build. Some of the most important considerations fall outside of what is typically considered computer science, such as understanding the needs of the users and organizations and the potential implications of design decisions; or crafting clean, engaging visual designs. Other, equally important considerations are much more technical -- writing code with HTML, CSS, and JavaScript, thinking about how information travels over the Internet, and learning new frameworks, architectural styles, and design patterns. Moreover, as web techniques/technologies continue to evolve, it is also import to "learn how to learn" about new technologies, including interpreting technical documentation, modifying and adapting sample code, and thinking about whether or not to use an external library (versus building something from scratch). Developing these competencies involves cultivating a variety of practices and dispositions (versus acquiring some fixed body of knowledge).
