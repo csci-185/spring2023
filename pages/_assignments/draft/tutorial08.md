@@ -4,7 +4,7 @@ title: Conditionals and While Loops
 type: tutorial
 abbreviation: Tutorial 8
 draft: 1
-points: 4
+points: 6
 num: 8
 due_date: 2023-03-05
     

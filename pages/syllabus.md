@@ -13,7 +13,6 @@ section2: "MWF 11:00-12:15PM, Zeis Hall, Rm. 203"
 ta: "Nova Holland (they / them)"
 ta_email: ahollan3@unca.edu
 notes: "Students may receive credit for ONLY ONE of the following courses: CSCI 182, 183 or 185."
-# include_schedule: 1
 ---
 
 <style>
