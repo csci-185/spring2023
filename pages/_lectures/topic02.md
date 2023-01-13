@@ -2,7 +2,7 @@
 layout: module
 title: Intro to HTML
 type: module
-draft: 1
+draft: 0
 due_date: 2023-01-18
 readings:
    - url: ../html-reference/

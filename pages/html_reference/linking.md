@@ -6,23 +6,76 @@ parent: HTML Resources
 permalink: /html-reference/links/
 ---
 
+<style>
+    .link-table td:first-child {
+        width: 230px;
+    }
+</style>
+
 > **Overview Resources**
 >
 > * [Absolute versus relative paths](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
 
-Linking is probably the most important feature of the worldwide web, and allows documents, media, fonts, text files, etc. to be connected together -- no matter what computer they are on! There are several different ways of linking to resources:
+Linking is probably **the most important feature** of the worldwide web, and allows documents, media, fonts, text files, etc. to be connected together -- no matter what computer they are on! There are several different ways of linking to resources:
 
 ## 1. Navigating Relative File Paths
-Given the image below, the following relative paths are from the perspective of the index.html file.
+Most of the time, your web pages will link to neighboring files that are stored on the same computer as your web page. Given this, you have to "teach the browser" how to navigate from the current file to a file stored in a neighboring folder.
 
-![](/spring2023/assets/images/file_paths.png)
+In the example below, pretend that your files are organized as follows and that you're editing the `index.html` file located inside the `my_website/home` directory.
+
 ```shell
-../test.html # go up one directory and access the test.html file
-../files/blah.html # go up one directory and then into the files directory, and access the blah.html file
-../images/dogs/a1.png # go up one directory, then into the images directory, then into the dogs directory, and access the a1.png image
-styles/my_style.css # go into the styles directory and access the my_style.css file
-styles/dark/new.css # go into the styles directory, then into the dark directory, and access the new.css file
+my_website
+├── files
+│   └── gallery.html
+├── home
+│   ├── contact.html
+│   ├── index.html
+│   └── styles
+│   └── styles
+│       ├── dark
+│       │   └── new.css
+│       └── my_style.css
+├── images
+│   ├── cat.jpg
+│   └── dog.jpg
+└── test.html
 ```
+
+{:.link-table}
+| Link (from &#8594; to) | Path | Explanation |
+|--|--|--|
+| `index.html` &#8594; `contact.html` | `contact.html` | Because both files are in the same directory, you can just specify the file name |
+| `index.html`  &#8594; `test.html` | `../test.html` | The `../` notation means "go up one directory" (in this case, into the `my_website` directory). Then once you're in the correct directory, access the `test.html` file. |
+| `index.html`  &#8594; `gallery.html` | `../files/gallery.html` | "Navigate up one directory (to `my_website`), then into the `files` directory, and then access `gallery.html`." |
+| `index.html`  &#8594; `dog.jpg` | `../images/dog.jpg` |  |
+| `index.html`  &#8594; `my_style.css` | `styles/my_style.css` | "Go into the `styles` directory and then access `my_style.css`." |
+| `index.html`  &#8594; `new.css` | `styles/dark/new.css` | "Go into the `styles` directory, then go into the `dark` directory, and then access `new.css`." |
+
+### Here is what my_website/home/index.html might look like
+```html
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>My first web page</title>
+        <link rel="stylesheet" href="styles/my_style.css" />
+        <link rel="stylesheet" href="styles/dark/new.css" />
+    </head>
+    <body>
+        <!-- All visible content goes inside of the body tag -->
+        <h1>Hello world</h1>
+        <img src="../images/dog.jpg" alt="A picture of a dog" />
+
+        <p>
+            Here is <a href="contact.html">my contact form</a>.
+            Here is a <a href="../test.html">Test Link</a>.
+            Here is <a href="../files/gallery.html">my photo gallery</a>.
+        </p>
+    </body>
+</html>
+
+```
+
 
 ## 2. Linking to external pages
 Note that if the resource is on someone else's computer, you need to provide a "fully qualified" URL path, including the protocol (https), the server name (google.com), and then file path (none specified in this case).
