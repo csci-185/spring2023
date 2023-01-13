@@ -12,13 +12,14 @@ permalink: /html-reference/links/
     }
 </style>
 
-> **Overview Resources**
->
-> * [Absolute versus relative paths](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)
+Linking is probably **the most important feature** of the worldwide web, and allows documents, media, fonts, text files, etc. to be connected together -- no matter what computer they are on! There are three different ways of linking to resources:
 
-Linking is probably **the most important feature** of the worldwide web, and allows documents, media, fonts, text files, etc. to be connected together -- no matter what computer they are on! There are several different ways of linking to resources:
+1. [Using relative paths](#relative)
+2. [Using absolute paths](#absolute)
+3. [Using internal links](#internal)
 
-## 1. Navigating Relative File Paths
+{:#relative}
+## 1. Using relative paths
 Most of the time, your web pages will link to neighboring files that are stored on the same computer as your web page. Given this, you have to "teach the browser" how to navigate from the current file to a file stored in a neighboring folder.
 
 In the example below, pretend that your files are organized as follows and that you're editing the `index.html` file located inside the `my_website/home` directory.
@@ -51,7 +52,8 @@ my_website
 | `index.html`  &#8594; `my_style.css` | `styles/my_style.css` | "Go into the `styles` directory and then access `my_style.css`." |
 | `index.html`  &#8594; `new.css` | `styles/dark/new.css` | "Go into the `styles` directory, then go into the `dark` directory, and then access `new.css`." |
 
-### Here is what my_website/home/index.html might look like
+### Sample index.html code
+The code below shows how you might apply these paths in an actual HTML page:
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -76,19 +78,20 @@ my_website
 
 ```
 
-
-## 2. Linking to external pages
+{:#absolute}
+## 2. Using absolute paths
 Note that if the resource is on someone else's computer, you need to provide a "fully qualified" URL path, including the protocol (https), the server name (google.com), and then file path (none specified in this case).
 
 <iframe src="//codepen.io/vanwars/embed/mERgZY/?height=300&theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
 
 
-## 3. Linking to page regions
+{:#internal}
+## 3. Using internal links (linking to page regions)
 Note that the href value is prefaced with a hash tag (#) followed by the id of the section where you want to jump:
 
 <iframe src="//codepen.io/vanwars/embed/rLjbXG/?height=300&theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
 
 
-## 4. Organizing links into a menu
-The links in this example don't link to anything (yet), but is meant to show that div and span tags can be useful for grouping links into conceptual widgets (like menus)
-<iframe src="//codepen.io/vanwars/embed/YMWqoO/?height=300&theme-id=18654&default-tab=html,result" allowfullscreen="true" class="codepen-frame"></iframe>
+> ## Additional Resources
+>
+> * [Absolute versus relative paths](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/)

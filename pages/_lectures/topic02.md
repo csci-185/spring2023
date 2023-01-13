@@ -38,9 +38,8 @@ readings:
      date: 2011
 ---
 
-
-## Essential Questions
-
-## Lecture
+## Slides
+* Slides will be posted before lecture.
 
 ## Activities
+* Activities will be posted before lecture.
