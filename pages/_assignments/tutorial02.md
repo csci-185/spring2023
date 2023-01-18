@@ -10,7 +10,7 @@ due_date: 2023-01-20
 ---
 
 {:.blockquote-no-margin}
-> **Assumptions:** This tutorial assumes that you have reviewed the materials assigned in the [Intro to HTML lecture](/spring2023/lectures/topic02).
+> **Assumptions:** This tutorial assumes that you have reviewed the materials assigned in the [Intro to HTML lecture](/spring2023/lectures/topic03).
 
 ## Part 1. Setting Up Your Development Environment
 
