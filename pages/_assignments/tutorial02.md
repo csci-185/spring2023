@@ -204,4 +204,4 @@ While we have not yet covered CSS, try editing style.css as follows:
 > * [selectors](/spring2023/css-reference/selectors/)
 
 ## What to turn in
-Please zip your entire tutorial01 folder (ask if you don’t know how to do this), and submit it to Moodle under **Tutorial 2**.
+Please zip your entire tutorial02 folder (ask if you don’t know how to do this), and submit it to Moodle under **Tutorial 2**.
