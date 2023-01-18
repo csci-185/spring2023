@@ -58,18 +58,18 @@ You will be ***editing*** your files using VS Code (or another code editor of yo
 <html lang="en">
    <head>
         <!-- stylesheets and metadata go here -->
-       <title>Photos</title>       
+       <title>Home</title>       
        <!-- <link rel="stylesheet" href="style.css"> -->
    </head>
    <body>
        <!-- HTML content tags go here -->
         <nav class="navbar">
-            <strong>Photos</strong>
+            <strong>Home</strong>
             <a href="#">Music</a>
             <a href="#">Videos</a>
         </nav>
         <main>
-            <h1>Photos</h1>
+            <h1>Home</h1>
             <p>Here is some text for the homepage.</p>
 
             <section class="photo-section">
@@ -128,7 +128,7 @@ Next, modify the anchor tags within the navigation section (in each of your page
 
 ```html
 <nav class="navbar">
-    <strong>Photos</strong>
+    <strong>Home</strong>
     <a href="#">Music</a>
     <a href="#">Videos</a>
 </nav>
