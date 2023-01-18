@@ -24,13 +24,12 @@ Download and install Visual Studio Code: <a href="https://code.visualstudio.com/
 File management and organization are an essential part of programming and web development. As such, we suggest the following system:
 1. Create a course folder called **csci185** somewhere on your computer. Many people store theirs in Documents or on their Desktop.
 2. Create a **tutorials** folder inside of your csci185 folder.
-3. Download the tutorial01.zip file, unzip it (ask if you’re new to zipping / unzipping files and I will help you) and move the unzipped tutorial01 folder into the `csci185/tutorials` folder (see diagram below).
+3. Download the tutorial02.zip file, unzip it (ask if you’re new to zipping / unzipping files and I will help you) and move the unzipped tutorial02 folder into the `csci185/tutorials` folder (see diagram below).
 
 
 ```
 csci185
     |-- tutorials
-    │   |-- tutorial01
     │   |-- tutorial02
     |   ...
     |
@@ -40,8 +39,7 @@ csci185
     |   ...
     |
     |-- lectures
-        |-- lecture01
-        |-- lecture02
+        |-- lecture03
         ...
 ```
 
