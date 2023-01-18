@@ -1,14 +1,47 @@
 ---
 layout: module
-title: Design with Accessibility in Mind
+title: Intro to HTML
 type: module
-draft: 1
-due_date: 2023-01-30
+num: 3
+draft: 0
+due_date: 2023-01-18
+readings:
+   - url: ../html-reference/
+     title: HTML Resources
+     internal: 1
+   - url: ../html-reference/rules-of-thumb/
+     title: Rules of Thumb
+     internal: 1
+   - url: ../html-reference/text-tags/
+     title: Text Markup Tags
+     internal: 1
+   - url: ../html-reference/links/
+     title: Hyperlinks
+     internal: 1
+   - url: ../html-reference/images/
+     title: Image Tags
+     internal: 1
+   - url: ../html-reference/media-tags/
+     title: Media Tags
+     internal: 1
+   - url: ../html-reference/compound-tags/
+     title: Compound Tags
+     internal: 1
+   - url: ../html-reference/forms/
+     title: Form Tags
+     internal: 1
+   - url: https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+     title: |
+       How Browsers Work: Behind the scenes of modern web browsers
+     author: "Tali Garsiel and Paul Irish"
+     optional: 1
+     source: https://www.html5rocks.com/
+     date: 2011
 ---
 
-
-## Essential Questions
-
-## Lecture
+## Slides
+1. <a href="https://docs.google.com/presentation/d/1wDQpzogOqFGcVjbMIsDtVtj3FJdQ15st3OgzM_fJgbQ/edit?usp=sharing" target="_blank">Intro to HTML</a> (Wednesday, 01/18)
 
 ## Activities
+1. <a href="https://docs.google.com/document/d/1KIRFND9Xi2WikDE9Ry89hOsZZgyD0bIkSzaqGP8J4i4/edit?usp=sharing" target="_blank">Write your first HTML page</a> (Wednesday, 01/18)
+

@@ -1,190 +1,207 @@
 ---
 layout: assignment-two-column
-title: Publish your first web page using GitHub
+title: Make Your First Web Page
 type: tutorial
 abbreviation: Tutorial 2
-draft: 1
+draft: 0
 points: 6
 num: 2
 due_date: 2023-01-20
 ---
 
-<!-- 
-TODO for next time:
-git config --global user.name "Sarah"
-git config --global user.email "my_email@gmail.com"
+{:.blockquote-no-margin}
+> **Assumptions:** This tutorial assumes that you have reviewed the materials assigned in the [Intro to HTML lecture](/spring2023/lectures/topic02).
 
-On Mac, people had to install XCode Tools
--->
-<style>
-    img {
-        max-width: 750px;
-        width: 60%;
-        border: solid 1px #000;
-    }
-    img.large {
-        max-width: 100%;
-        width: 100%;
-        border: solid 1px #000;
-    }
-    .schematic {
-        border: none;
-        max-width: 850px;
-        width: 70%;
-        display: block;
-        margin: auto;
-    }
-    table.instructions td, table.instructions th {
-        font-size: 1.0em;
-    }
-    table.instructions td:first-child {
-        white-space: nowrap;
-    }
-    ul.spaced li, ol.spaced li {
-        margin-bottom: 25px;
-    }
+## Part 1. Setting Up Your Development Environment
 
-</style>
+### 1. Install Visual Studio Code
+Download and install Visual Studio Code: <a href="https://code.visualstudio.com/" target="_blank">https://code.visualstudio.com/</a>. 
+* This does not need to be done if you are working on the computer lab computers -- just if you're working on your laptop.
+
+### 2. Organize your files
+<a href="/spring2023/course-files/tutorials/tutorial02.zip" class="nu-button">Download Tutorial Files <i class="fas fa-download"></i></a>
+
+File management and organization are an essential part of programming and web development. As such, we suggest the following system:
+1. Create a course folder called **csci185** somewhere on your computer. Many people store theirs in Documents or on their Desktop.
+2. Create a **tutorials** folder inside of your csci185 folder.
+3. Download the tutorial01.zip file, unzip it (ask if you’re new to zipping / unzipping files and I will help you) and move the unzipped tutorial01 folder into the `csci185/tutorials` folder (see diagram below).
+
+
+```
+csci185
+    |-- tutorials
+    │   |-- tutorial01
+    │   |-- tutorial02
+    |   ...
+    |
+    |-- homework
+    │   |-- hw01
+    │   |-- hw02
+    |   ...
+    |
+    |-- lectures
+        |-- lecture01
+        |-- lecture02
+        ...
+```
+
+### 3. Take a look at your files
+You will be ***editing*** your files using VS Code (or another code editor of your choice), and ***viewing*** your rendered files in your web browser.
+
+#### A. View file in Visual Studio Code
+1. Open VS Code (your code editor).
+2. Add your entire csci185 folder to VS Code by 
+   * clicking `File >> Add Folder to Workspace...`  
+   * and then navigating to your csci185 folder (wherever you saved it)
+3. Open your index.html file and take a look at it. You should see a very simple HTML file that looks like this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+        <!-- stylesheets and metadata go here -->
+       <title>Photos</title>       
+       <!-- <link rel="stylesheet" href="style.css"> -->
+   </head>
+   <body>
+       <!-- HTML content tags go here -->
+        <nav class="navbar">
+            <strong>Photos</strong>
+            <a href="#">Music</a>
+            <a href="#">Videos</a>
+        </nav>
+        <main>
+            <h1>Photos</h1>
+            <p>Here is some text for the homepage.</p>
+
+            <section class="photo-section">
+                <!-- photos go here-->
+            </section>
+        </main>
+   </body>
+</html>
+```
+
+#### B. View file in Web Browser 
+Once you’ve taken a look at the code in VS Code, go to your file navigator (Windows Explorer for Windows, Finder for Mac), and double-click index.html to preview it in your browser. For this course, we recommend that you use Chrome because it has some really great built-in developer and debugging tools.
+
+It should look something like this:
+
+<img class="frame xsmall" src="/spring2023/assets/images/tutorials/tutorial02/a.png" />
+
+## Part 2. Completing the Exercises
+Now that you're set up, please complete the 6 tasks below:
+
+{:.blockquote-no-margin}
+> 1. [Connect your stylesheet to your HTML files](#step1)
+> 1. [Link your HTML files together](#step2)
+> 1. [Add some images to index.html](#step3)
+> 1. [Add some embedded videos to videos.html](#step4) 
+> 1. [Add a music player to music.html](#step5)
+> 1. [Attempt the optional enhancements (if time)](#step6)
+            
+
+{:#step1}
+### 1. Connect your style.css stylesheet
+Open your `index.html` file. Within the `<head></head>` section, uncomment the following line by removing the `<!--` on one side and the `-->` on the other:
+
+```html
+<!-- <link rel="stylesheet" href="style.css"> -->
+```
+
+This "link tag" instructs the browser to style the `index.html` according to the rules specified in the `styles.css` stylesheet. When you're done, it your code should look like this:
+
+```html
+<link rel="stylesheet" href="style.css">
+```
+
+Test your change by refreshing your web browser. Your page should now look like this:
+
+<img class="frame medium" src="/spring2023/assets/images/tutorials/tutorial02/b.png" />
+
+Next, add this same stylesheet link tag inside of the head tag of the `videos.html` and `music.html` files, and then preview both of these in your web browser. These pages should look like this:
+
+<img class="frame medium" src="/spring2023/assets/images/tutorials/tutorial02/c.png" />
+<img class="frame medium" src="/spring2023/assets/images/tutorials/tutorial02/d.png" />
+
+{:#step2}
+### 2. Link your pages to one another in the navigation section
+Next, modify the anchor tags within the navigation section (in each of your pages) so that your pages link to one another. To do this, you will modify the value that corresponds to the `href` ***attribute*** so that it points to the file you want to open when your user clicks the link. In other words, you will replace the `#` with a ***relative path*** to the relevant HTML file.
+
+```html
+<nav class="navbar">
+    <strong>Photos</strong>
+    <a href="#">Music</a>
+    <a href="#">Videos</a>
+</nav>
+```
+
+{:.blockquote-no-margin}
+> **Hint**: Please review the <a href="https://www.w3schools.com/html/html_filepaths.asp" target="_blank">W3Schools reference</a> on "HTML File Paths," if you are not sure what a relative path is.
+
+Update all of your anchor tags on all three pages. When you're done, all of the pages should link together as shown below:
+
+<img class="frame small" src="/spring2023/assets/images/tutorials/tutorial02/e.gif" />
+
+{:#step3}
+### 3. Add some images to the index.html file
+Inside the `index.html` file:
+
+1. Add three image tags inside of the `<section class="photo-section"></section>` region of your page.
+2. Each image should reference one of the flower images inside of the `images` folder.
+3. Make sure that you use **relative** paths to each of your images.
+4. Feel free to save other images into your `images` folder and use those if you want.
+
+When you're done, your page should look like this:
+
+<img class="frame medium" src="/spring2023/assets/images/tutorials/tutorial02/f.png" />
 
 
 {:.blockquote-no-margin}
-> ## Tutorial Overview.
-> In this week's tutorial, you will be publishing the web page you made in tutorial01 to GitHub. To do this, please complete the following:
+> **Hint**: Please see the course resources on [images](/spring2023/html-reference/images/) for more detail.
+
+{:#step4}
+### 4. Add two videos to the videos.html file
+Inside the `videos.html` file, add two different YouTube or Vimeo videos inside of the `<section class="video-section"></section>` region of your page. To get the embed code of any YouTube video, (a) navigate to the video, (b) click "share", (c) then click "embed," and (d) then copy the embed code (iframe tag), as pictured below (note the pink squares):
+
+<img class="frame small" src="/spring2023/assets/images/tutorials/tutorial02/g.png" />
+
+<img class="frame small" src="/spring2023/assets/images/tutorials/tutorial02/h.png" />
+
+<img class="frame small" src="/spring2023/assets/images/tutorials/tutorial02/i.png" />
+
+When you're done, your page should look like this (except with *your* videos):
+
+<img class="frame medium" src="/spring2023/assets/images/tutorials/tutorial02/j.png" />
+
+{:.blockquote-no-margin}
+> **More examples**: Please also see the course resources on [media tags](/spring2023/html-reference/media-tags/).
+
+{:#step5}
+### 5. Add a Spotify player to music.html
+Inside the `music.html` file, add one or more embedded music players inside of the `<section class="music-section"></section>` region of your page. There are instructions on how to get the embed code of a Spotify artist profile, album, song, playlist, or podcast on Spotify's <a href="https://artists.spotify.com/en/help/article/embedded-players" target="_blank">documentation page</a>. 
+
+When you're done, your page should look like this (except with *your* videos):
+
+<img class="frame medium" src="/spring2023/assets/images/tutorials/tutorial02/k.png" />
+
+
+{:#step6}
+### 6. Optional Enhancements
+While we have not yet covered CSS, try editing style.css as follows:
+* See if you can change the fonts and/or text color of the h1 tag
+* Try resizing the images
+* See if you can get your iframe to have the same style as your image
+* Change the background color of you web page
+* See if you can get your hyperlinks to have a hover effect
+
+{:.blockquote}
+> #### CSS Reference
+> Please also see the course resources on CSS:
 >
-> 1. [Complete the Background Readings](#part1)
-> 1. [Install git](#part2)
-> 1. [Register for GitHub](#part3)
-> 1. [Configure the Git / Visual Studio Code Plugin](#part4)
-> 1. [Configure Git Pages](#part5)
-
-
-{:#part1}
-## 1. Background Readings
-Please complete the following readings / video tutorials:
-1. [Intro to git and GitHub](https://medium.com/the-underdog-writing-project/introduction-to-git-and-github-a5fdf5633923). A little technical, but please do your best to read it and come to tutorial with questions.
-2. [Using GitHub with Visual Studio Code](https://youtu.be/i_23KUAEtUM). How we will be using GitHub in this class.
-
-{:#part2}
-## 2. Install Git
-In order to interact with GitHub, you need to install git. Before you install it, check and make sure it’s not already installed by:
-
-1. Windows: search for the software program "GitBash." If you find it, git is already installed. 
-2. Mac:
-    1. Opening your Terminal and type the word `git` at the command prompt. 
-    2. If you get a message that says "not recognized" or something along those lines, then you need to install it.
-
-If you need to install it, follow these instructions:   <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git" target="_blank">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>.
-
-{:#part3}
-## 3. Register for an account on GitHub
-If you don’t already have a GitHub account, register for one: <a href="https://github.com/" target="_blank">https://github.com/join</a>. Some notes:
-
-1. Please have your password close at hand. Particularly if you are using the computer lab computers, you will keep being prompted for your password.
-2. Mac users may also need to create a **"Personal Access Token"**. The process is described <a href="https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token" target="_blank">here</a>.
-
-
-{:#part4}
-## 4. Configure the Git / Visual Studio Code Plugin
-
-### 1. Tell the system who you are 
-Tell your computer who you are on Git by running the following commands in GitBash (Windows) or in the Terminal (Mac):
-
-```bash
-git config --global user.name "Sarah"
-git config --global user.email "my_email@gmail.com"
-```
-
-Please use **your name**, and the **email you used when registering with GitHub**.
-
-> #### Note for Computer Lab Computers
-> If you are using a computer lab computer, you will need to complete this step each time you use git.
-
-### 2. Verify your file structure
-
-Please ensure that your `csci185` folder looks like this:
-
-```shell
-csci185
-├── lectures
-│   └── lecture02
-│       ├── images
-│       ├── index.html
-│       └── styles.css
-└── tutorials
-    └── tutorial01
-        ├── images
-        ├── index.html
-        ├── music.html
-        ├── style.css
-        └── videos.html
-```
-
-It's OK if your lectures folder isn't set up yet, but make sure your tutorials folder looks like the one shown above. This is very important. As your peer mentor to verify that your folder nesting is correct (`tutorial01` should be contained within `tutorials` which should contained within `csci185`).
-
-### 3. Initialize a Git Repository
-After you've doublechecked your file structure, open your entire `csci185` folder in VS Code. Your file list should look like this (click on the icon that looks like two pieces of paper in the upper left-hand corner of your screen):
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss1.png" />
-
-Next, click on the icon that looks like a tree branch, and click the blue button that says "Initialize Repository":
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss2.png" />
-
-You have now created a git repository on your computer in the same folder as your `csci185` folder. Now, you will want to "stage" all of your changes. Click the button with the three dots, then select "Changes", and then "Stage All changes":
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss3.png" />
-
-After you "stage" your changes, you will note that the left-hand panel has changed. Specifically:
-
-{:.compact}
-* The panel lists all of the files that are "staged" to be committed, with an "A" next to each file (indicating that you are adding the files for the first time). 
-* To commit these changes, type a message in the text box that says "My First Commit" and then click the check button to actually issue the commit:
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss4.png" />
-
-Afterwards, a button will appear that says "Publish Branch." Click this button. It may prompt you to install a GitHub plugin. Please agree that you are OK to install the GitHub plugin.
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss5.png" />
-
-You will now create a new GitHub repository called `csci185-coursework`. Please ensure that you create a PUBLIC repository:
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss6.png" />
-
-After VS code issues the "create repository" request to GitHub, it will give you a message indicating that your files are being sent up to GitHub. When the file transfer is complete, you will see a blue button that says "Open On GitHub". Click that button. 
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss7.png" />
-
-Clicking the button will open your newly created `csci185-coursework` repository and show you all of your files (which are now in the cloud):
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss8.png" />
-
-
-
-
-{:#part5}
-## 5. Finally, Configure GitHub Pages
-GitHub also allows you to host pages. To enable GitHub pages:
-
-{:.compact}
-1. Go to your repository and click on the settings tab. 
-2. Click the "GitHub Pages" link in the left-hand menu
-3. Click the dropdown menu that asks you to select a branch.
-4. Select the "master" branch
-5. Click "Save"
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss9.png" />
-
-This will generate a link to your GitHub site. 
-
-<img class="large" src="/spring2023/assets/images/tutorials/tutorial02/ss10.png" />
-
-> ### A note on GitHub Pages
-> * It make take a few minutes for your webpage to display
-> * In order to preview the webpage you made in `tutorial01`, you have to append the `/tutorials/tutorial01/index.html` file path to the end of your github pages to indicate which file to display.
+> * [fonts](/spring2023/css-reference/fonts/)
+> * [color](/spring2023/css-reference/color/)
+> * [selectors](/spring2023/css-reference/selectors/)
 
 ## What to turn in
-Just paste in your links to the Moodle:
-1. A link to your GitHub repository
-    * Sarah's link is here: <a href="https://github.com/vanwars/csci185-coursework" target="_blank">https://github.com/vanwars/csci185-coursework</a>. You will replace "vanwars" with your GitHub username.
-2. A link to your GitHub Pages that displays your tutorial01 page. 
-    * Sarah's link is here: <a href="https://vanwars.github.io/csci185-coursework/tutorials/tutorial01/index.html" target="_blank">https://vanwars.github.io/csci185-coursework/tutorials/tutorial01/index.html</a>. You will replace "vanwars" with your GitHub username.
+Please zip your entire tutorial01 folder (ask if you don’t know how to do this), and submit it to Moodle under **Tutorial 2**.

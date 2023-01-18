@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "CSS Layouts: CSS Grid"
+title: "CSS Layouts: The Box Model and Flexbox"
 type: module
 draft: 1
-due_date: 2023-02-20
+due_date: 2023-02-13
 ---
 
 

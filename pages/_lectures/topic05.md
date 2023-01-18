@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "CSS Layouts: The Box Model and Flexbox"
+title: Intro to CSS
 type: module
 draft: 1
-due_date: 2023-02-13
+due_date: 2023-02-06
 ---
 
 
