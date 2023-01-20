@@ -42,6 +42,9 @@ readings:
 ## Slides
 1. <a href="https://docs.google.com/presentation/d/1wDQpzogOqFGcVjbMIsDtVtj3FJdQ15st3OgzM_fJgbQ/edit?usp=sharing" target="_blank">Intro to HTML</a> (Wednesday, 01/18)
 
+## Videos
+Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
+
 ## Activities
 1. <a href="https://docs.google.com/document/d/1KIRFND9Xi2WikDE9Ry89hOsZZgyD0bIkSzaqGP8J4i4/edit?usp=sharing" target="_blank">Write your first HTML page</a> (Wednesday, 01/18)
 
