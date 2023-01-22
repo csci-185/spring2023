@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "Advanced CSS Techniques"
+title: "CSS Layouts: CSS Grid"
 type: module
 draft: 1
-due_date: 2023-02-27
+due_date: 2023-02-13
 ---
 
 

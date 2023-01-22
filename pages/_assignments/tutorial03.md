@@ -1,9 +1,9 @@
 ---
 layout: assignment-two-column
-title: Design a Homepage
+title: Create a Homepage
 type: tutorial
 abbreviation: Tutorial 3
-draft: 1
+draft: 0
 points: 6
 num: 3
 due_date: 2023-01-27
@@ -22,11 +22,11 @@ due_date: 2023-01-27
     }
 </style>
 
-In this tutorial, you are going to make a homepage for your coursework, which you will create directly inside of your `csci185` directory (the folder where you made your git repository). Please complete the following steps:
+In this tutorial, you are going to make a homepage to showcase the work you have done in this class. You will create your homepage at the root of your `csci185` directory (the folder where you made your git repository). Please complete the following steps:
 
 ## Step 1: Get Set Up
 
-Create a brand new file called `index.html` directly inside of your `csci185` directory, and paste this (suggested) starter code into the HTML file you just created:
+Create a brand new file called `index.html` **directly inside** of your `csci185` directory, and paste this (suggested) starter code into the HTML file you just created:
 
 ```html
 <!-- You're welcome to change any of this! -->
@@ -35,7 +35,7 @@ Create a brand new file called `index.html` directly inside of your `csci185` di
    <head>
         <!-- stylesheets and metadata go here -->
        <title>My CSCI 185 Homepage</title>       
-       <link rel="stylesheet" href="style.css">
+       <link rel="stylesheet" href="styles.css">
    </head>
    <body>
        <!-- HTML content tags go here. Change anything you want! -->
@@ -64,12 +64,18 @@ Create a brand new file called `index.html` directly inside of your `csci185` di
                     Links to 5-10 websites that inspire you
                 -->
             </section>
+            <section id="class-exercises">
+                <h2>Class Exercises</h2>
+                <!-- 
+                    Links to your in-class activities
+                -->
+            </section>
         </main>
    </body>
 </html>
 ```
 
-Also create a stylesheet called `style.css` directly inside of your `csci185` directory. Paste the following (suggested) starter code into the stylesheet:
+Also create a stylesheet called `styles.css` directly inside of your `csci185` directory. Paste the following (suggested) starter code into the stylesheet:
 
 ```css
 /* You're welcome to change any of this! */
@@ -81,41 +87,27 @@ body {
     margin: 0px;
     font-family: Arial, sans-serif;
 }
-header, section {
-    padding: 20px;
-}
-p, li {
+
+p, a, li {
     line-height: 1.5em;
+    font-size: 1.1em;
 }
 
-#inspiration {
-    background-color: #F0F0F0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
 ```
 
 When you're done, your `csci185` directory should look something like this:
 
 ```bash
 csci185
+├── homework
+│   └── hw02
 ├── lectures
-│   ├── lecture02
-│   │   ├── bakery-example
-│   │   └── exercise
+│   ├── lecture03
 │   └── lecture04
-│       ├── answers
-│       ├── index.html
-│       └── styles.css
-└── tutorials
-│   └── tutorial01
-│       ├── images
-│       ├── index.html
-│       ├── music.html
-│       ├── style.css
-│       └── videos.html
-├── index.html  # index.html file you just made
-└── style.css   # style.css you just made
+├── tutorials
+│   └── tutorial02
+├── index.html   # index.html file you just made
+└── styles.css   # styles.css you just made
 ```
 
 Note that you can have additional files and folders in your repo directory, so long as the ones listed above are in there.
@@ -136,41 +128,26 @@ Once you've set up your two new files, go ahead and commit everything and push y
 
 
 ## Step 2: Link to your work
-Next, add a link to your tutorial #1 work using a **relative path**. For instance, mine looks like this:
+
+### Links to Tutorials
+Next, create an unordered list inside of the "tutorials" section of your HTML page. If you don't know how, consult W3 schools or the [course HTML reference](../html-reference/compound-tags/). Then, within one of the list item tags (`<li></li>`) add a hyperlink (`<a></a>` tag) that links to the `index.html` file you made in Tutorial 2. You will use a **relative path**. For instance, mine looks like this:
 
 * <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">Sarah's Demo Homepage</a>
 
-Feel free to do it your way! When you're done, commit your changes and push to GitHub using the same steps that you used above.
+When you're done, commit your changes and push to GitHub using the same steps that you used above. Then, wait about a minute and go check out your changes on GitHub pages.
 
-Then, wait about a minute and go check out your changes on GitHub pages.
+* Each week, when you submit your tutorial, you will link to it from your homepage like we did today.
 
-## Step 3: Plan your design
-### 1. Pick your values
-{:.spaced}
-Using this <a href="https://docs.google.com/document/d/1Vv5tPZ8UjqJNYO9pCp_PQhxHT8qoGY09deKX6uygUFA/edit?usp=sharing" target="_blank">list of values</a>, select 3 that best describe the values that you want to communicate about yourself and your work.
+### In-Class Work (Optional)
+To get some additional linking practice, please create an unordered list inside of the “class-exercises” section of your HTML page. Within each list item, include a link to each in-class activity we have been doing (including the `lecture04` exercises from Monday).
 
-### 2. Search for inspiration
-The best way to learn how to design is to look at great designs! Go out to the internet and find 5-10 web pages, images, advertisements, banners, etc. that you think look great! Take a look at the [Design Resources page](/spring2023/design-reference/) to find some design websites.
+## Step 3: Plan your homepage design
+Eventually, you'll want to style your homepage to give it your own unique aesthetic. We'll start digging into some of the CSS principles needed to effectively style web pages next week. That said, it's never to early to start thinking about the look-and-feel of your website, and coming up with good ideas often starts by examining websites that inspire you. 
 
-Add the links that you found to the "inspiration" section of your homepage (like Sarah's <a href="https://vanwars.github.io/csci185-coursework" target="_blank">example</a>). How might you use the techniques used in the examples you found (e.g. alignment, contrast, proximity, color, typography, textures, images, etc.) to communicate *your* values?
+To gather inspiration, you are going to go out to the Internet and find 5-10 web pages, images, advertisements, banners, etc. that you think look great! You can look at the [Design Resources page](/spring2023/design-reference/) to find some inspiring websites, or revisit websites that you already like.
 
-## Step 4: Style your page
-Now, create your own look-and-feel on your web page:
+When you have your list of websites, create an unordered list to the "inspiration" section of your homepage (like Sarah's <a href="https://vanwars.github.io/csci185-coursework" target="_blank">example</a>). Each list item should contain a link to one of the websites you found.
 
-1. Update the fonts: select (and apply) a header and a body copy font from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>. Here is some <a href="https://codepen.io/vanwars/pen/gOpryzO?editors=0100" target="_blank">sample code</a> of how to use Google Fonts. Ensure that your fonts are complementary and that they match the values / theme of the website.
-1. Instantiate the principles of **proximity** and **alignment** to visually group the different sections of your homepage. Cluster similar things, apply spacing to things that are different. Be very intentional about aligning and organizing your content.
-1. Pick some colors and apply them to your design.
-1. Add some images to your design (create an images folder to store your images).
-1. When you're done, commit your files to GitHub.
-
-> ### Pro Tips
-> * Feel free to edit (or even replace) the HTML or CSS as you like. Don't feel tethered to the starter code!
-> * Use a grid. Note: this doesn't mean that you have to use "CSS Grid." It just means that there should be implicit vertical and horizontal lines that guide your layout.
-> * Use whitespace liberally.
-> * Here are some resources that may help you:
->    * [color]({{ site.baseurl }}/css-reference/color/)
->    * [box model]({{ site.baseurl }}/css-reference/box-model/)
->    * [fonts]({{ site.baseurl }}/css-reference/fonts/)
 
 ## Checklist
 Please make sure that you have completed the following (see the <a href="https://vanwars.github.io/csci185-coursework" target="_blank">example</a>, except you will add images, etc.):
@@ -179,7 +156,6 @@ Please make sure that you have completed the following (see the <a href="https:/
 * Added a link to Tutorial 1
 * Added links to your in-class assignments (which should be stored in within the `lectures` folder)
 * Added your "inspiration" links
-* Styled your page
 * Posted your homepage to GitHub Pages
 
 ## What to turn in

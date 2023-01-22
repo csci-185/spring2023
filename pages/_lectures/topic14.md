@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "Functions & Events"
+title: "Conditional Logic"
 type: module
 draft: 1
-due_date: 2023-03-20
+due_date: 2023-03-27
 ---
 
 

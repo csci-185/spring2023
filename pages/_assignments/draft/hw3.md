@@ -6,7 +6,7 @@ type: homework
 due_date: 2023-03-03
 ordering: 3
 points: 16
-draft: 1
+draft: 0
 ---
 
 <a class="nu-button" href="/spring2023/course-files/homework/hw03.zip">

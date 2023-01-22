@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "Introduction to JavaScript"
+title: "Principles of Design"
 type: module
 draft: 1
-due_date: 2023-03-13
+due_date: 2023-02-20
 ---
 
 

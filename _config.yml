@@ -26,6 +26,10 @@ exclude:
   - course-files/practice_exams/drafts
   - course-files/projects/drafts
 collections:
+  activities:
+    output: true
+    sort_by: ordering
+    permalink: /activities/:name
   assignments:
     output: true
     sort_by: ordering

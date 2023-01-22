@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "Conditional Logic"
+title: "Advanced CSS Techniques"
 type: module
 draft: 1
-due_date: 2023-03-27
+due_date: 2023-02-27
 ---
 
 
