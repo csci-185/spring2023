@@ -1,6 +1,6 @@
 ---
 layout: module
-title: The Box Model
+title: "CSS Layouts: The Box Model"
 type: module
 num: 6
 draft: 1
