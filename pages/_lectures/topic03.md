@@ -50,5 +50,5 @@ readings:
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Activities
-1. <a href="https://docs.google.com/document/d/1KIRFND9Xi2WikDE9Ry89hOsZZgyD0bIkSzaqGP8J4i4/edit?usp=sharing" target="_blank">Write your first HTML page</a> (Wednesday, 01/18)
-
+1. Lecture 3: <a href="https://docs.google.com/document/d/1KIRFND9Xi2WikDE9Ry89hOsZZgyD0bIkSzaqGP8J4i4/edit?usp=sharing" target="_blank">Write your first HTML page</a> (Wednesday, 01/18)
+2. Lecture 4: Linking Activity. [Download the exercise files](../course-files/lectures/lecture04.zip) and follow <a href="https://docs.google.com/document/d/14_YEXKr4z2Hb_r-ZHgbhIVgzBlNR_Dc2YB47kTOwa4U/edit?usp=sharing" target="_blank">the instructions</a> (Monday, 01/23)
