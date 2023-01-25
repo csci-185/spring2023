@@ -43,8 +43,8 @@ readings:
 ---
 
 ## Slides
-1. Lecture 3: <a href="https://docs.google.com/presentation/d/1wDQpzogOqFGcVjbMIsDtVtj3FJdQ15st3OgzM_fJgbQ/edit?usp=sharing" target="_blank">Intro to HTML</a> (Wednesday, 01/18)
-2. Lecture 4: <a href="https://docs.google.com/presentation/d/1umPwjLPPaiSTv2tRYc4FxXDmc3UEJZxMPDCRAKhcio4/edit?usp=sharing" target="_blank">Semantic tags and relative links</a> (Monday, 01/23)
+* Lecture 3: <a href="https://docs.google.com/presentation/d/1wDQpzogOqFGcVjbMIsDtVtj3FJdQ15st3OgzM_fJgbQ/edit?usp=sharing" target="_blank">Intro to HTML</a> (Wednesday, 01/18)
+* Lecture 4: <a href="https://docs.google.com/presentation/d/1umPwjLPPaiSTv2tRYc4FxXDmc3UEJZxMPDCRAKhcio4/edit?usp=sharing" target="_blank">Semantic tags and relative links</a> (Monday, 01/23)
 
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
