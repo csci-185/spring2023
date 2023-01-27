@@ -153,10 +153,18 @@ When you have your list of websites, create an unordered list to the "inspiratio
 Please make sure that you have completed the following (see the <a href="https://vanwars.github.io/csci185-coursework" target="_blank">example</a>, except you will add images, etc.):
 
 {:.checkbox-list}
-* Added a link to Tutorial 1
-* Added links to your in-class assignments (which should be stored in within the `lectures` folder)
+* Added a link to Tutorial 2
+* Added links to your in-class assignments (which should be stored in within the `lectures` folder) -- optional but recommended.
 * Added your "inspiration" links
 * Posted your homepage to GitHub Pages
 
 ## What to turn in
-To submit this week's homework assignment, publish everything to GitHub (stage, commit, and sync), and then paste a link to your GitHub pages homepage on the course Moodle under the Tutorial 3 assignment.
+After completing Tutorial 3, please publish everything to GitHub (stage, commit, and sync). Then, in the Moodle, paste a link to:
+1. Your GitHub pages homepage (the link that visually displays your homepage)
+2. Your repository (the link that displays your code)
+
+For example, Sarah would submit:
+* GitHub pages homepage: [https://vanwars.github.io/csci185-coursework/](https://vanwars.github.io/csci185-coursework/)
+* Repository: [https://github.com/vanwars/csci185-coursework](https://github.com/vanwars/csci185-coursework)
+
+If you named your GitHub repository something different, that's OK!
