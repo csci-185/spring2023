@@ -1,9 +1,9 @@
 ---
 layout: module
-title: "CSS Layouts: Flexbox & Media Queries"
+title: "CSS Layouts: CSS Grid"
 type: module
 draft: 1
-due_date: 2023-02-06
+due_date: 2023-02-13
 ---
 
 

@@ -26,9 +26,9 @@ layout: default
     {% assign dates = dates | push: mon  | push: wed | push: fri %}
 {% endfor %}
 
-{% assign everything = site.assignments | concat: site.lectures %}
+{% assign everything = site.assignments | concat: site.lectures | concat: site.quizzes %}
 {% assign labs = site.assignments | where: 'type', 'tutorial' %}
-{% assign main_listing = site.lectures | concat: labs %}
+{% assign main_listing = site.lectures | concat: site.quizzes | concat: labs %}
 
 <!-- This additional date loop adds any unorthodox deadlines -->
 {% assign assignment_dates = everything | sort: 'due_date' | map: 'due_date' | uniq %}
