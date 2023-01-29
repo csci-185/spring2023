@@ -1,10 +1,5 @@
-body * {
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
-    font-family: 'Courier New';
 }
 
 header {
@@ -13,15 +8,15 @@ header {
     padding: 20px;
 }
 
-main {
-    padding: 5vh 15vw;
-}
-ol {
-    margin-bottom: 40px;
+footer {
+    background-color: #EEE;
+    padding: 30px;
+    margin-top: 30px;
+    text-align: center;
 }
 
-main > p, footer > p {
-    font-weight: bold;
+ol {
+    margin-bottom: 40px;
 }
 
 code {
@@ -29,11 +24,6 @@ code {
     font-size: 1.2em;
     font-weight: bold;
 }
-
-h1 {
-    text-align: center;
-}
-
 
 .cards {
     display: grid;
@@ -50,20 +40,6 @@ h1 {
 .card img {
     width: 100%;
     border: solid 2px #000;
-}
-
-
-
-#card2, #card4, #card6 {
-    background-color: #bce5d6;
-}
-
-#card1, #card3, #card5 {
-    background-color: #eee;
-}
-
-#card1 img, #card3 img, #card5 img {
-    border-radius: 150px;
 }
 
 footer {
