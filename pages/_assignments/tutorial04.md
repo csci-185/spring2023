@@ -8,4 +8,11 @@ points: 6
 num: 4
 due_date: 2023-02-03
 ---
-TBD
+
+Bakery:
+
+* box model
+* display: inline-block
+* margin and padding
+* pseudo-classes (anchor tag)
+* HTML forms + form submission
