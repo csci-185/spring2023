@@ -39,13 +39,11 @@ due_date: 2023-01-30
 <a href="" target="_blank"> -->
 
 {:.compact}
-* Lecture 6: Intro to CSS (Monday, 01/30)
+* Lecture 6: <a href="https://docs.google.com/presentation/d/14AABJ7sj-HRLrc8kTZbM80IJpmg7RqRVGoVtY5BWNW4/edit?usp=sharing" target="_blank">Intro to CSS</a> (Monday, 01/30)
 * Lecture 7: Common CSS Properties (Wednesday, 02/01)
 
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Activities
-Activities will be posted before lecture.
-
-<!-- 1. <a href="/spring2023/course-files/lectures/lecture07.zip">Lecture 7 files</a> (Monday, 01/30) -->
+1. Lecture 7: <a href="/spring2023/activities/intro-css">Photo Gallery Activity</a> (Monday, 01/30)
