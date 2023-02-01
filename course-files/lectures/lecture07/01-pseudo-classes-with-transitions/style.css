@@ -1,3 +1,7 @@
+/******************/
+/* General Styles */
+/******************/
+
 body * {
     box-sizing: border-box;
 }
@@ -24,6 +28,8 @@ div {
     align-items: center;
 }
 
+
+
 /**********/
 /* Demo 1 */
 /**********/
@@ -41,6 +47,7 @@ div {
    color: #333;
    background-color: #fff;
 }
+
 
 
 /**********/
@@ -66,6 +73,8 @@ div {
     font-size: 1.3em;
 }
 
+
+
 /**********/
 /* Demo 3 */
 /**********/
@@ -81,6 +90,8 @@ div {
     border: solid 5px #444;
 }
 
+
+
 /**********/
 /* Demo 4 */
 /**********/
@@ -94,6 +105,8 @@ div {
     background: blue;
     opacity: 0.5;
 }
+
+
 
 /**********/
 /* Demo 5 */
