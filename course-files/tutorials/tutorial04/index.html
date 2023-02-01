@@ -21,17 +21,19 @@
         <!-- Semantic section to hold all of the snacks -->
         <section id="items">
 
+            <h2>Order Online</h2>
+
             <!-- individual snack item -->
             <div class="item">
-                <h2>Baton</h2>
+                <h3>Baton</h3>
                 <img src="images/batons.jpg" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien blandit ligula maximus mollis ut vel magna.</p>
-                <a href="pages/batons.html">more</a>
+                <a href="#">more</a>
             </div>
 
             <!-- individual snack item -->
             <div class="item">
-                <h2>Ice Cream</h2>
+                <h3>Ice Cream</h3>
                 <img src="images/icecream.png" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien blandit ligula maximus mollis ut vel magna.</p>
                 <a href="#">more</a>
@@ -39,7 +41,7 @@
 
             <!-- individual snack item -->
             <div class="item">
-                <h2>Cup Cakes</h2>
+                <h3>Cup Cakes</h3>
                 <img src="images/cupcake.png" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien blandit ligula maximus mollis ut vel magna.</p>
                 <a href="#">more</a>
@@ -47,7 +49,7 @@
 
             <!-- individual snack item -->
             <div class="item">
-                <h2>Napolean</h2>
+                <h3>Napolean</h3>
                 <img src="images/napolean.jpg" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien blandit ligula maximus mollis ut vel magna.</p>
                 <a href="#">more</a>
@@ -55,7 +57,7 @@
 
             <!-- individual snack item -->
             <div class="item">
-                <h2>Vegan Chocolate Cake</h2>
+                <h3>Vegan Chocolate Cake</h3>
                 <img src="images/vegan-chocolate-cake.jpg" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien blandit ligula maximus mollis ut vel magna.</p>
                 <a href="#">more</a>
@@ -63,7 +65,7 @@
 
             <!-- individual snack item -->
             <div class="item">
-                <h2>Waffle</h2>
+                <h3>Waffle</h3>
                 <img src="images/waffle.jpg" />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et sapien blandit ligula maximus mollis ut vel magna.</p>
                 <a href="#">more</a>
@@ -85,8 +87,24 @@
 
         <!-- Semantic section to hold "Contact info" -->
         <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Pretend there's a form here...</p>
+            <form action="https://formsubmit.co/vanwars@gmail.com" method="POST">
+                <h2>Contact Us</h2>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" spellcheck="true" rows="10"></textarea>
+                    
+                <button id="submit" type="submit">Send</button>
+
+                <!-- This is a hidden form field 
+                (invisible to the user, but necessary for the form) -->
+                <input type="hidden" id="redirect" name="_next" value="">
+            </form>
         </section>
 
 
@@ -96,5 +114,8 @@
         </footer>
 
     </main>
+    <script>
+        document.getElementById("redirect").value = document.location.href.replace('index.html', 'form-submitted.html');
+    </script>
 </body>
 </html>
