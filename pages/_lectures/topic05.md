@@ -45,5 +45,6 @@ due_date: 2023-01-30
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
-## Activities
-1. Lecture 7: <a href="/spring2023/activities/intro-css">Photo Gallery Activity</a> (Monday, 01/30)
+## Activities & Lecture Files
+1. Lecture 6: <a href="/spring2023/activities/intro-css">Photo Gallery Activity</a> (Monday, 01/30)
+1. Lecture 7: <a href="/spring2023/course-files/lectures/lecture07.zip">Demo Files</a> (Wednesday, 02/01)
