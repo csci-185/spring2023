@@ -1,38 +1,10 @@
 ---
 layout: module
-title: "CSS Layouts: Flexbox & Media Queries"
+title: "CSS Layouts"
 type: module
 num: 6
 draft: 0
 due_date: 2023-02-06
-# readings:
-#    - url: ../css-reference/css-grid/
-#      title: CSS Grid
-#      internal: 1
-#    - url: ../css-reference/media-queries/
-#      title: Media Queries
-#      internal: 1
-#    - url: https://cssgridgarden.com/
-#      title: "CSS Grid Garden"
-#      notes: Please try to complete at least the first 10 levels
-#    - url: https://flexboxfroggy.com/
-#      title: Flexbox Froggy
-#      notes: Please try to complete at least the first 10 levels
-#    - url: https://university.webflow.com/lesson/flexbox-vs-grid
-#      title: When to use Flex versus CSS Grid?
-#      optional: 1
-#    - url: https://css-tricks.com/snippets/css/complete-guide-grid/
-#      title: "CSS Tricks: A Complete Guide to Grid"
-#      optional: 1
-#    - url: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-#      optional: 1
-#      title: "CSS Tricks: A Complete Guide to Flexbox"
-#    - url: https://www.w3schools.com/css/css3_flexbox.asp
-#      title: W3 Schools Flexbox Guide
-#      optional: 1
-#    - url: https://www.freecodecamp.org/news/learn-css-grid-by-building-5-layouts/
-#      title: "Learn CSS Grid by Building 5 Layouts in 17 minutes"
-#      optional: 1
 ---
 
 ## Readings
@@ -59,10 +31,19 @@ In this unit, we will explore three different techniques for creating responsive
 * [Media Queries](../css-reference/media-queries/) 
 
 ## Slides
-Slides will be posted before class.
+
+{:.compact}
+* Lecture 8: <a href="https://docs.google.com/presentation/d/1MUx4wudYNNZHcCgcpt8vsac_CM0fWOiJRyTDhmrckcQ/edit?usp=sharing" target="_blank">Creating Page Layouts w CSS Grid</a> (Monday & Wednesday, 02/06 - 02/08)
+* Lecture 9: Creating Page Layouts w CSS Flexbox (Monday, 02/15) 
+<!-- * Lecture 9: <a href="https://docs.google.com/presentation/d/1hd-oHjrl1OGmWhUzTJz8LN4KJhpo9IoHqMGNctfYCHg/edit?usp=sharing" target="_blank">Creating Page Layouts w CSS Flexbox</a> (Monday, 02/15) -->
+
 
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Activities
-Activities will be posted before class.
+* Lecture 8: Sample Files: Creating Page Layouts w CSS Grid (Monday & Wednesday, 02/06 - 02/08)
+* Lecture 9: Sample Files: Creating Page Layouts w CSS Flexbox (Monday, 02/15)
+
+<!-- * Lecture 8: <a href="/spring2023/course-files/lectures/lecture08.zip">Sample Files: Creating Page Layouts w CSS Grid</a> (Monday & Wednesday, 02/06 - 02/08) -->
+
