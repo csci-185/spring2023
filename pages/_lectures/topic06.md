@@ -42,8 +42,5 @@ In this unit, we will explore three different techniques for creating responsive
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Activities
-* Lecture 8: Sample Files: Creating Page Layouts w CSS Grid (Monday & Wednesday, 02/06 - 02/08)
+* Lecture 8: <a href="/spring2023/course-files/lectures/lecture08.zip">Sample Files: Creating Page Layouts w CSS Grid</a> (Monday, 02/06 - 02/08)
 * Lecture 9: Sample Files: Creating Page Layouts w CSS Flexbox (Monday, 02/15)
-
-<!-- * Lecture 8: <a href="/spring2023/course-files/lectures/lecture08.zip">Sample Files: Creating Page Layouts w CSS Grid</a> (Monday & Wednesday, 02/06 - 02/08) -->
-

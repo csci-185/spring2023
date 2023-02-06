@@ -5,22 +5,6 @@ type: module
 num: 5
 draft: 0
 due_date: 2023-01-30
-# readings: 
-#    - url: ../css-reference/rules-of-thumb/
-#      title: "CSS Rules of Thumb"
-#      internal: 1
-#    - url: ../css-reference/selectors/
-#      title: "Selectors"
-#      internal: 1
-#    - url: ../css-reference/color/
-#      title: "Color"
-#      internal: 1
-#    - url: ../css-reference/fonts/
-#      title: "Text & fonts"
-#      internal: 1
-#    - url: ../css-reference/box-model/
-#      title: "The Box Model"
-#      internal: 1
 ---
 
 ## Readings
