@@ -71,4 +71,4 @@ Student repositories for Section 1:
 | 17 | Page Ragan | [repo](https://github.com/paganrage333/csci185) &bull; [website](https://paganrage333.github.io/csci185/index.html) |  |
 | 18 | Mariam Rudenko | [repo](https://github.com/rudedanko/csci185.git) &bull; [website](https://rudedanko.github.io/csci185-coursework/) |  |
 | 19 | Andrew Smith | [repo](https://github.com/asmith7654/csci185-coursework) &bull; [website](https://asmith7654.github.com/csci185-coursework) | GitHub pages link broken |
-| 20 | Simon Stout | [repo](https://github.com/sstout660/csci185) &bull; [website](https://sstout660.github.io/csci185/) |  |
+| 20 | Simon Stout | [repo](https://github.com/sstout660/csci185-coursework) &bull; [website](https://sstout660.github.io/csci185-coursework/) |  |
