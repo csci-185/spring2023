@@ -21,7 +21,7 @@ To study for Quiz 1, please complete the practice quiz by downloading the starte
 ## Part 1: Setup
 You are going to build the webpage pictured below:
 
-<img src="/spring2023/assets/images/tutorials/tutorial04/exercise01.png" />
+<img src="/spring2023/assets/images/quizzes/practice_quiz01/exercise01.png" />
 
 Inside of the `practice-quiz01` folder, create a brand new HTML file called `index.html` that is a ***direct child*** of the `practice-quiz01` folder. If you did it correctly, your file structure should look like this:
 
