@@ -270,7 +270,7 @@ Every page should link to every other page (no broken links)
 When you're done with the exercise:
 1. Update your homepage (that you made during Tutorial 3) by adding a link to the `index.html` file that you made in this quiz (and make sure you are using a relative link). Sarah's quiz looks like this:
 * <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
-2. Commit and push your changes to GitHub
+2. Commit and sync your changes to GitHub.
 
 ## What to Submit
 **Please Read Carefully:** To submit Quiz 1, paste the following links into the Moodle under the Homework 3 submission section:
