@@ -60,7 +60,7 @@ For this section, you will be editing the `index.html` file in order to create t
 <img class="preview" src="/spring2023/assets/images/quizzes/quiz01/schematic.png" />
 
 ### 1. Stylesheet Link
-1. Add a link to the `styles.css` stylesheet (located in the `assets` > `css` folder) in the `head` tag.
+1. Inside of the `head` tag in your `index.html` file, add a link to the `styles.css` stylesheet (located in the `assets` > `css` folder).
     * If you did it correctly, the background of your web page should turn dark blue.
 
 ### 2. Semantic Structure
