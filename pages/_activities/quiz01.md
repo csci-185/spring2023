@@ -300,7 +300,7 @@ When you're done with the exercise:
 2. Commit and sync your changes to GitHub.
 
 ## What to Submit
-**Please Read Carefully:** To submit Quiz 1, paste the following links into the Moodle under the Homework 3 submission section:
+**Please Read Carefully:** To submit Quiz 1, paste the following links into the Moodle under the Quiz 1 submission section:
 
 1. A link to your **homepage** on GitHub pages.
 2. A link to your GitHub **code repository** (where your code files are stored).
