@@ -155,7 +155,7 @@ text-transform: uppercase;
 text-align: center;
 ``` 
 
-This should give your `h1` and `h2` tags tag a funky custom font (which you're notice as you complete Part 3).
+This should give your `h1` and `h2` tags tag a funky custom font (which you'll notice as you complete Part 3).
 
 ### 8. Style the "h1" element inside of the "landing" class
 Apply the following style rules to **`h1` elements <u>inside of</u> a `landing` class element**:
