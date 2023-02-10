@@ -9,96 +9,133 @@ due_date: 2023-02-10
 ---
 
 <style>
-    img {
-        max-width: 70%;
+    img.preview {
+        max-width: 60%;
+        min-width: 500px;
     }
 </style>
 
-Please download the starter files and complete the tasks described below. Read the instructions that are outlined under each task very carefully. Complete as many tasks as you can by the end of the quiz. Just do your best.
 
-## Part 1. HTML Tasks (index.html)
+Please download the starter files and complete the Parts 1-4 as described below:
+
+1. [HTML Tasks (index.html)](#part1)
+1. [Styling tasks](#part2)
+1. [HTML Tasks (other files)](#part3)
+1. [Link from your homepage](#part4)
+{:.compact}
+
+Some tips:
+* Read the instructions that are outlined under each section very carefully. 
+* Complete as many tasks as you can by the end of the quiz. 
+* If it doesn't look exactly like the screenshot, don't stress -- partial credit is given!
+* Just do your best.
+{:.compact}
+
+{:#part1}
+## Part 1. HTML Tasks (index.html) [30pts]
+For this section, you will be editing the `index.html` file.
 
 ### 1. Stylesheet Link
-1. Open `index.html`
-2. Add a stylesheet link to `styles.css`, which is located in the `assets` folder.
+1. Add a stylesheet link to `styles.css`, which is located inside the `css` folder, which is inside of `assets`.
+    * Pay careful attention to where `index.html` is located in relation to `styles.css`
 
 If you did it correctly, the background of your web page should turn dark blue.
 
-### 2. Header Section
-1. Add three semantic tags inside the body tag:
+### 2. Semantic Structure
+1. Add three empty semantic tags inside the body tag:
     * a `header` tag
     * a `main` tag
     * a `footer` tag
-1. Inside the `header` tag, add an `img` tag that links to the `taco-temple-logo.webp` file (in the `images` folder).
 
-### 3. Navigation Section
+### 3. Header & Navigation Sections
+1. Inside the `header` tag, add an `img` tag that links to the `taco-temple-logo.webp` file (in the `images` folder).
 1. Next to the `img` tag (but still inside the `header` tag), add a `nav` tag.
 1. Inside the `nav` tag, add 3 hyperlinks:
     * One called **Menu** that links to `menu.html`
     * One called **Contact** that links to `contact.html` 
     * One called **Hours & Location** that links to `location-hours.html` 
 
-<img src="/spring2023/assets/images/quizzes/quiz01/ss01.png" />
+Note that `menu.html`, `contact.html` , and `location-hours.html` are all located inside of the `site-pages` folder.
+
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss01.png" />
 
 ### 4. Main Section
-1. Give the `main` task a class called "landing.
+1. Give the `main` task a class called `"landing"`.
 1. Inside the `main` tag, add two tags:
 1. An `img` tag that links to the `landing-image.webp` file (in the images folder).
 2. A `section` tag. Inside the section tag, add two tags:
     * An `h1` that says: "Call 828-255-8098 for take-out or click below to order online!"
     * A hyperlink that links to the Taco Temple order online page here: <a href="https://www.mamacitastacotemple.com/s/order" target="_blank">https://www.mamacitastacotemple.com/s/order</a>
 
-<img src="/spring2023/assets/images/quizzes/quiz01/ss02.png" />
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss02.png" />
 
 ### 5. Footer
 Within the `footer` tag, create a paragraph tag that says “Copyright 2023, Taco Temple.”
 
-## Part 2. HTML Tasks (other files)
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss03.png" />
 
-### 1. Stylesheet Link
-1. Open `menu.html`
-2. Add a  stylesheet link to `styles.css`, which is located in the `assets` folder.
 
-### 2. Header Section
-1. Copy the entire `header` tag (and everything inside of it) from `index.html` and paste it into `menu.html` **above** the `main` tag.
-2. Adjust the file paths for the relative links so that the relative paths don't break (now that you're editing a file in the `site-pages` folder).
+{:#part2}
+## Part 2: Styling tasks [30pts]
 
-### 3. Footer Section
-1. Copy the entire `header` tag  (and everything inside of it) from `index.html` and paste it into `menu.html` **below** the `main` tag.
-
-### 4. Repeat with contact.html & location-hours.html
-Repeat steps 1-3 above with `contact.html` & `location-hours.html`. 
-
-## Part 3: Styling tasks
-
-### 1. Style the image inside the header tag
-Create a ruleset for **"img" elements inside of "header" elements**. The rule should set the width to `180px` and the right margin to `100px`.
-
-### 2. Style the header tag
-Create a rulset for **"header" elements** that applies the following styles:
+### 1. Style the header 
+Create a ruleset for **`header` elements** that applies the following styles:
 
 ```css
 padding: 25px 13vw;
 display: flex;
 align-items: center;
+justify-content: space-between;
 ```
 
-### 3. Style the main tag with a class of "landing"
-Create a ruleset for **elements with a class of "landing"** that applies the following styles:
+### 2. Style the image inside the header
+Create a ruleset for **`img` elements <u>inside of</u> `header` elements** that sets the `width` property to `180px` 
+
+### 3. Style the hyperlinks inside of the header
+Create a ruleset for **`a` elements <u>inside of</u> `header` elements** that applies the following styles:
+
+```css
+color: white;
+text-decoration: none;
+margin: 10px;
+text-transform: uppercase;
+```
+
+### 4. Style the main element
+Create a ruleset for **`main` elements** that applies the following styles:
+
+```css
+padding: 100px 25vw 50px 25vw;
+min-height: 70vh;
+```
+
+### 5. Style the "landing" class
+Create a ruleset for the **`landing` class** that applies the following styles:
 
 ```css
 background: white;
-padding: 50px 15vw 200px 15vw;
+padding: 50px 15vw 100px 15vw;
 display: grid;
 grid-template-columns: 60% 40%;
 align-items: center;
 justify-content: center;
 ```
 
-Target **"img" elements inside of main elements** and give them a width of `100%`.
+### 6. Style the image inside of the "landing" class
+Create a ruleset for **`img` elements <u>inside of</u> `landing` class elements** that sets the `width` property to `100%`.
 
-### 4. h1 styling
-Apply the following style rules to **"h1" elements inside of elements with a class of "landing"**:
+### 7. Style the "h1" and "h2" elements
+Apply the following style rules to **all `h1` and `h2`** elements:
+```css
+font-family: Malamondo;
+font-weight: 400;
+text-transform: uppercase;
+``` 
+
+This should give your `h1` and `h2` tags tag a funky custom font (which you're notice as you complete Part 3).
+
+### 8. Style the "h1" element inside of the "landing" class
+Apply the following style rules to **`h1` elements <u>inside of</u> `landing` class elements**:
 
 ```css
 color: black;
@@ -107,8 +144,10 @@ font-size: 1.7em;
 font-family: Malamondo-Alt;
 ```
 
-### 5. link styling
-Apply the following style rules to **"a" elements inside of elements with a class of "landing"**:
+This should give your `h1` tag on the landing page a slightly different custom font.
+
+### 9. Style the link inside of the "landing" class to look like a button
+Apply the following style rules to **`a` elements <u>inside of</u> `landing` class elements**:
 
 ```css
  text-align: center;
@@ -124,13 +163,119 @@ border-radius: 4px;
 text-decoration: none;
 ```
 
-### 6. Body Copy
-Add the following rules to the existing `body` ruleset in your CSS file:
+### 10. Style the footer element
+Create a ruleset for **`footer` elements** to:
+
+1. Give the footer `50px` of padding
+2. center the text inside of the footer
+{:.compact}
+
+
+### 11. Add rulesets to style the other pages
+Below the styles you just created, add the following rulesets
+to style the other pages:
 
 ```css
-font-family: 'Work Sans', sans-serif;
-font-size: 1.1em;
-font-weight: 400;
-line-height: 1.5em;
+ul {
+    margin-bottom: 50px;
+}
+
+.location-hours {
+    margin-top: 50px;
+}
+
+.location-hours p {
+    margin: 0;
+}
+
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+
+form label {
+    display: inline-block;
+    width: 75px;
+    padding: 10px 0px 5px 0;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 550px;
+    padding: 10px;
+    border-radius: 4px;
+    background: #FFF;
+    border: solid 1px #CCC;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+form button {
+    border: solid 2px #fff;
+    padding: 10px 20px;
+    text-transform: none;
+    background: #013672;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+}
 ```
 
+
+### Verify that you're done with the styling
+When you're done, the homepage should look like this:
+
+<img class="large frame" src="/spring2023/assets/images/quizzes/quiz01/ss04.png" />
+
+
+{:#part3}
+## Part 3. HTML Tasks (other files)  [30pts]
+Please complete the following tasks for each of the three HTML files:
+1. `menu.html`
+2. `contact.html`
+3. `location-hours.html`
+
+### 1. Stylesheet Link
+1. Add a stylesheet link to each HTML page that links to `styles.css` (located in the `assets` folder). 
+    * Note that the relative path will be different from what it was in `index.html`
+
+### 2. Header Section
+1. Copy the entire `header` tag (and everything inside of it) from `index.html` and paste it into `menu.html` **above** the `main` tag, but still within the `body` tag.
+2. Adjust the file paths for the relative links so that the relative paths don't break (now that you're editing a file in the `site-pages` folder).
+3. Make the Taco Temple logo into a link by wrapping a hyperlink (`a` tag) around the `img` tag. This link should point to `index.html` in the parent directory.
+
+### 3. Footer Section
+1. Copy the entire `footer` tag  (and everything inside of it) from `index.html` and paste it **below** the `main` tag.
+
+### Verify that you're done with the quiz
+When you're done with Parts 1-3, your website should look like this:
+
+#### 1. HTML structure
+The three  HTML pages you just edited should have the  semantic structure (pictured below)
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss05.png" />
+
+#### 2. Links all work
+Every page should link to every other page (no broken links)
+
+#### 3. The website should look like this animation
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/tt-final.gif" />
+
+{:#part4}
+## Part 4: Link from your homepage  [10pts]
+When you're done with the exercise:
+1. Update your homepage (that you made during Tutorial 3) by adding a link to the `index.html` file that you made in this quiz (and make sure you are using a relative link). Sarah's quiz looks like this:
+* <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
+2. Commit and push your changes to GitHub
+
+## What to Submit
+**Please Read Carefully:** To submit Quiz 1, paste the following links into the Moodle under the Homework 3 submission section:
+
+1. A link to your **homepage** on GitHub pages.
+2. A link to your GitHub **code repository** (where your code files are stored).
+
+If your GitHub is not working for whatever reason, just zip your **COMPLETED** `quiz01` folder and upload it to the Moodle.
