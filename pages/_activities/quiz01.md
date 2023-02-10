@@ -38,10 +38,10 @@ csci185
 
 When you're done with that, complete the Parts 1-4 as described below:
 
-1. [HTML Tasks (index.html)](#part1)
-1. [Styling tasks](#part2)
-1. [HTML Tasks (other files)](#part3)
-1. [Link from your homepage](#part4)
+1. (30pts) [HTML Tasks (index.html)](#part1)
+1. (30pts) [Styling tasks](#part2)
+1. (30pts) [HTML Tasks (other files)](#part3)
+1. (10pts) [Link from your homepage](#part4)
 {:.compact}
 
 > ### Guidelines
