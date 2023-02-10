@@ -272,25 +272,15 @@ Please complete the following tasks for each of the three HTML files:
     * Note that the relative path will be different from what it was in `index.html`
 
 ### 2. Header Section
-1. Copy the entire `header` tag (and everything inside of it) from `index.html` and paste it into `menu.html` **above** the `main` tag, but still within the `body` tag.
+1. Copy the entire `header` tag (and everything inside of it) from `index.html` and paste it into each of the HTML pages **above** the `main` tag, but still within the `body` tag.
 2. Adjust the file paths for the relative links so that the relative paths don't break (now that you're editing a file in the `site-pages` folder).
 3. **[Optional -- 2pts Extra Credit]** Make the Taco Temple logo into a link by wrapping a hyperlink (`a` tag) around the `img` tag. This link should point to `index.html` in the parent directory.
+
+When you're done, `menu.html`, `contact.html`, and `location-hours.html` should all link to one another.
 
 ### 3. Footer Section
 1. Copy the entire `footer` tag  (and everything inside of it) from `index.html` and paste it **below** the `main` tag.
 
-### Verify that you're done with the quiz
-When you're done with Parts 1-3, your website should look like this:
-
-#### 1. HTML structure
-The three  HTML pages you just edited should have the  semantic structure (pictured below)
-<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss05.png" />
-
-#### 2. Links all work
-Every page should link to every other page (no broken links)
-
-#### 3. The website should look like this animation
-<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/tt-final.gif" />
 
 {:#part4}
 ## Part 4: Link from your homepage  [10pts]
@@ -299,7 +289,25 @@ When you're done with the exercise:
 * <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
 2. Commit and sync your changes to GitHub.
 
-## What to Submit
+## Submit
+
+### 1. Verify that you're done with the quiz
+When you're done with Parts 1-4, double-check that you're done:
+
+#### A. HTML structure
+All 4 of the HTML pages you just edited should have the  semantic structure (pictured below)
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss05.png" />
+
+#### B. Links all work
+Every page should link to every other page (no broken links).
+* Note that linking from the detail pages to the index.html page is optional.
+
+#### C. The website should look like this animation
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/tt-final.gif" />
+
+#### D. Your homepage should link to the quiz.
+
+### 2. Submit to the Moodle
 **Please Read Carefully:** To submit Quiz 1, paste the following links into the Moodle under the Quiz 1 submission section:
 
 1. A link to your **homepage** on GitHub pages.
