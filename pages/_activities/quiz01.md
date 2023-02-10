@@ -31,6 +31,9 @@ Some tips:
 * Just do your best.
 {:.compact}
 
+<a href="/spring2023/course-files/quizzes/quiz01.zip" class="nu-button">Quiz 1 Starter Files <i class="fas fa-download"></i></a>
+
+
 {:#part1}
 ## Part 1. HTML Tasks (index.html) [30pts]
 For this section, you will be editing the `index.html` file.
