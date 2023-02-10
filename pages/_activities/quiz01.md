@@ -15,8 +15,28 @@ due_date: 2023-02-10
     }
 </style>
 
+<a href="/spring2023/course-files/quizzes/quiz01.zip" class="nu-button">Quiz 1 Starter Files <i class="fas fa-download"></i></a>
 
-Please download the starter files and complete the Parts 1-4 as described below:
+## Set Up
+* Inside your `csci185` folder, create a folder called `quizzes`. 
+* Download the starter files and unzip them. They should be unzipped in a folder called `quiz01`.
+* Move your `quiz01` folder into  the `quizzes` folder.
+* Open your entire `csci185` folder in VS Code.
+
+Your directory structure should look something like this (it's OK if your file structure looks different, so long as the quizzes folder looks like the one below):
+
+```bash
+csci185
+├── homework
+├── index.html
+├── lectures
+├── quizzes
+│   └── quiz01
+├── styles.css
+└── tutorials
+```
+
+When you're done with that, complete the Parts 1-4 as described below:
 
 1. [HTML Tasks (index.html)](#part1)
 1. [Styling tasks](#part2)
@@ -24,14 +44,13 @@ Please download the starter files and complete the Parts 1-4 as described below:
 1. [Link from your homepage](#part4)
 {:.compact}
 
-Some tips:
-* Read the instructions that are outlined under each section very carefully. 
-* Complete as many tasks as you can by the end of the quiz. 
-* If it doesn't look exactly like the screenshot, don't stress -- partial credit is given!
-* Just do your best.
-{:.compact}
-
-<a href="/spring2023/course-files/quizzes/quiz01.zip" class="nu-button">Quiz 1 Starter Files <i class="fas fa-download"></i></a>
+> ### Guidelines
+> * You may not move or rename any of the files.
+> * Read the instructions that are outlined under each section very carefully. 
+> * Complete as many tasks as you can by the end of the quiz. 
+> * If it doesn't look exactly like the screenshot, don't stress -- partial credit is given!
+> * Just do your best.
+> {:.compact}
 
 
 {:#part1}
@@ -39,7 +58,7 @@ Some tips:
 For this section, you will be editing the `index.html` file.
 
 ### 1. Stylesheet Link
-1. Add a stylesheet link to `styles.css`, which is located inside the `css` folder, which is inside of `assets`.
+1. Add a stylesheet link to `styles.css`, which is located inside the `assets` > `css` folder.
     * Pay careful attention to where `index.html` is located in relation to `styles.css`
 
 If you did it correctly, the background of your web page should turn dark blue.
@@ -63,12 +82,12 @@ Note that `menu.html`, `contact.html` , and `location-hours.html` are all locate
 <img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss01.png" />
 
 ### 4. Main Section
-1. Give the `main` task a class called `"landing"`.
+1. Give the `main` tag a class called `"landing"`.
 1. Inside the `main` tag, add two tags:
 1. An `img` tag that links to the `landing-image.webp` file (in the images folder).
 2. A `section` tag. Inside the section tag, add two tags:
-    * An `h1` that says: "Call 828-255-8098 for take-out or click below to order online!"
-    * A hyperlink that links to the Taco Temple order online page here: <a href="https://www.mamacitastacotemple.com/s/order" target="_blank">https://www.mamacitastacotemple.com/s/order</a>
+    * An `h1` that says: "Call 828-255-8098<br> for take-out or click below to order online!"
+    * A hyperlink that links to the Taco Temple order online page here: <a href="https://www.mamacitastacotemple.com/s/order" target="_blank">https://www.mamacitastacotemple.com/s/order</a>. The link text should say "Order now".
 
 <img class="preview" src="/spring2023/assets/images/quizzes/quiz01/ss02.png" />
 
@@ -91,11 +110,11 @@ align-items: center;
 justify-content: space-between;
 ```
 
-### 2. Style the image inside the header
+### 2. Style the image inside the header element
 Create a ruleset for **`img` elements <u>inside of</u> `header` elements** that sets the `width` property to `180px` 
 
-### 3. Style the hyperlinks inside of the header
-Create a ruleset for **`a` elements <u>inside of</u> `header` elements** that applies the following styles:
+### 3. Style the hyperlinks inside the nav element
+Create a ruleset for **`a` elements <u>inside of</u> `nav` elements** that applies the following styles:
 
 ```css
 color: white;
@@ -109,7 +128,7 @@ Create a ruleset for **`main` elements** that applies the following styles:
 
 ```css
 padding: 100px 25vw 50px 25vw;
-min-height: 70vh;
+min-height: 55vh;
 ```
 
 ### 5. Style the "landing" class
@@ -133,6 +152,7 @@ Apply the following style rules to **all `h1` and `h2`** elements:
 font-family: Malamondo;
 font-weight: 400;
 text-transform: uppercase;
+text-align: center;
 ``` 
 
 This should give your `h1` and `h2` tags tag a funky custom font (which you're notice as you complete Part 3).
@@ -181,6 +201,10 @@ to style the other pages:
 ```css
 ul {
     margin-bottom: 50px;
+}
+
+h2 {
+    text-align: left;
 }
 
 .location-hours {
@@ -244,13 +268,13 @@ Please complete the following tasks for each of the three HTML files:
 3. `location-hours.html`
 
 ### 1. Stylesheet Link
-1. Add a stylesheet link to each HTML page that links to `styles.css` (located in the `assets` folder). 
+1. Add a `link` tag inside the `head` tag of each of the three HTML pages that links to `styles.css` (located in the `assets` folder). 
     * Note that the relative path will be different from what it was in `index.html`
 
 ### 2. Header Section
 1. Copy the entire `header` tag (and everything inside of it) from `index.html` and paste it into `menu.html` **above** the `main` tag, but still within the `body` tag.
 2. Adjust the file paths for the relative links so that the relative paths don't break (now that you're editing a file in the `site-pages` folder).
-3. Make the Taco Temple logo into a link by wrapping a hyperlink (`a` tag) around the `img` tag. This link should point to `index.html` in the parent directory.
+3. **[Optional -- 2pts Extra Credit]** Make the Taco Temple logo into a link by wrapping a hyperlink (`a` tag) around the `img` tag. This link should point to `index.html` in the parent directory.
 
 ### 3. Footer Section
 1. Copy the entire `footer` tag  (and everything inside of it) from `index.html` and paste it **below** the `main` tag.
