@@ -55,13 +55,13 @@ When you're done with that, complete the Parts 1-4 as described below:
 
 {:#part1}
 ## Part 1. HTML Tasks (index.html) [30pts]
-For this section, you will be editing the `index.html` file.
+For this section, you will be editing the `index.html` file in order to create the following structure inside of your `body` tag:
+
+<img class="preview" src="/spring2023/assets/images/quizzes/quiz01/schematic.png" />
 
 ### 1. Stylesheet Link
-1. Add a stylesheet link to `styles.css`, which is located inside the `assets` > `css` folder.
-    * Pay careful attention to where `index.html` is located in relation to `styles.css`
-
-If you did it correctly, the background of your web page should turn dark blue.
+1. Add a link to the `styles.css` stylesheet (located in the `assets` > `css` folder) in the `head` tag.
+    * If you did it correctly, the background of your web page should turn dark blue.
 
 ### 2. Semantic Structure
 1. Add three empty semantic tags inside the body tag:
