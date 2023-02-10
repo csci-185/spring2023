@@ -111,10 +111,10 @@ justify-content: space-between;
 ```
 
 ### 2. Style the image inside the header element
-Create a ruleset for **`img` elements <u>inside of</u> `header` elements** that sets the `width` property to `180px` 
+Create a ruleset for **`img` elements <u>inside of</u> a `header` element** that sets the `width` property to `180px` 
 
 ### 3. Style the hyperlinks inside the nav element
-Create a ruleset for **`a` elements <u>inside of</u> `nav` elements** that applies the following styles:
+Create a ruleset for **`a` elements <u>inside of</u> a `nav` element** that applies the following styles:
 
 ```css
 color: white;
@@ -144,7 +144,7 @@ justify-content: center;
 ```
 
 ### 6. Style the image inside of the "landing" class
-Create a ruleset for **`img` elements <u>inside of</u> `landing` class elements** that sets the `width` property to `100%`.
+Create a ruleset for **`img` elements <u>inside of</u> a `landing` class element** that sets the `width` property to `100%`.
 
 ### 7. Style the "h1" and "h2" elements
 Apply the following style rules to **all `h1` and `h2`** elements:
@@ -158,7 +158,7 @@ text-align: center;
 This should give your `h1` and `h2` tags tag a funky custom font (which you're notice as you complete Part 3).
 
 ### 8. Style the "h1" element inside of the "landing" class
-Apply the following style rules to **`h1` elements <u>inside of</u> `landing` class elements**:
+Apply the following style rules to **`h1` elements <u>inside of</u> a `landing` class element**:
 
 ```css
 color: black;
@@ -170,7 +170,7 @@ font-family: Malamondo-Alt;
 This should give your `h1` tag on the landing page a slightly different custom font.
 
 ### 9. Style the link inside of the "landing" class to look like a button
-Apply the following style rules to **`a` elements <u>inside of</u> `landing` class elements**:
+Apply the following style rules to **`a` elements <u>inside of</u> a `landing` class element**:
 
 ```css
  text-align: center;
