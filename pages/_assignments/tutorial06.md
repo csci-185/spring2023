@@ -1,6 +1,6 @@
 ---
 layout: assignment-two-column
-title: Get Started on HW5
+title: Style Your Homepage
 type: tutorial
 abbreviation: Tutorial 6
 draft: 0
@@ -9,13 +9,44 @@ num: 5
 due_date: 2023-02-24
 ---
 
-For today's tutorial, you will get started on [HW4](hw05). Your job is to get as far as you can on the homepage.
+## Introduction
 
-## What to Submit
-To submit Tutorial 6, just link the start page of the FroYo website. See Sarah's homepage to see an example of what your homepage should look like:
-* <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
+In [Tutorial 3](tutorial03), you created your homepage, and found 5-10 web pages, images, advertisements, banners, etc. that inspired you in some way. Today, you are going to use those sources of inspiration to style your homepage. Some questions to ask yourself:
 
-When you're done, paste the following links into the Moodle under the Tutorial 6 submission section:
+* How might you draw inspiration from the examples you found (e.g. alignment, contrast, proximity, color, typography, textures, images, etc.) to communicate *your* unique personality?
+* What tools that we've [learned over the past week](../lectures/topic07) can help you select colors, fonts, icons, and textures
+* Are there any approaches that you want to copy or recreate? 
+* Copying isn't a bad thing when you're learning: sometimes you have to learn the "standard" technique before you try to do something new and original.
 
-1. A link to your **homepage** on GitHub pages, which should link to the start of your FroYo website.
-2. A link to your GitHub **code repository** (where your code files are stored).
+## Your Tasks
+Now, create your own look-and-feel on your web page:
+
+### 1. Select some values
+Pick three values from <a href="https://docs.google.com/document/d/1Vv5tPZ8UjqJNYO9pCp_PQhxHT8qoGY09deKX6uygUFA/edit" target="_blank">this list</a> that you want to communicate in some way on your website. Write them down.
+
+### 2. Select Your Fonts
+Select (and apply) a header and a body copy font from <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> that instantiate the look-and-feel you're hoping to communicate. Here is some <a href="https://codepen.io/vanwars/pen/gOpryzO?editors=0100" target="_blank">sample code</a> of how to use Google Fonts. Ensure that your fonts are complementary and that they match the values / theme of the website.
+
+### 3. Use the Principles of Proximity & Aligment
+Use the principles of **proximity** and **alignment** to visually group the different sections of your homepage. Cluster similar things, apply spacing to things that are different. Be very intentional about aligning and organizing your content.
+
+### 4. Create a Color Scheme 
+Pick some colors and apply them to your design. Use some of the [color tools](../css-reference/color/) we talked about in class.
+
+### 4. Add some images or icons
+Finally, add some images or icons to your design (and create an images folder to store your images at the root of your `csci185` folder).
+
+
+> ### Pro Tips
+> * Use a grid. Note: this doesn't mean that you have to use "CSS Grid." It just means that there should be implicit vertical and horizontal lines that guide your layout.
+> * Use whitespace liberally.
+> * Here are some resources that may help you:
+>    * [color]({{ site.baseurl }}/css-reference/color/)
+>    * [box model]({{ site.baseurl }}/css-reference/box-model/)
+>    * [fonts]({{ site.baseurl }}/css-reference/fonts/)
+
+## What to turn in
+After completing Tutorial 6, please publish everything to GitHub (stage, commit, and sync). Then, in the Moodle, paste a link to:
+1. Your GitHub pages homepage (the link that visually displays your homepage)
+2. Your repository (the link that displays your code)
+3. A list of the three values you chose to implement. 
