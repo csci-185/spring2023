@@ -45,9 +45,5 @@ Today we will be talking about web accessibility
 * Lecture 11: <a href="https://docs.google.com/presentation/d/14aZc0xKDmKuHW-M-mwAsf0yOfxsu2gWO_qzVpZyAYIA/edit?usp=sharing" target="_blank">Design with Accessibility in Mind</a> (Monday, 02/20)
 
 
-
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
-
-## Activities
-Activities will be published before class.
