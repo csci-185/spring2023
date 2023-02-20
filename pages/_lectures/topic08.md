@@ -42,7 +42,8 @@ readings:
 Today we will be talking about web accessibility
 
 ## Slides
-Slides will be posted before lecture.
+* Lecture 11: <a href="https://docs.google.com/presentation/d/14aZc0xKDmKuHW-M-mwAsf0yOfxsu2gWO_qzVpZyAYIA/edit?usp=sharing" target="_blank">Design with Accessibility in Mind</a> (Monday, 02/20)
+
 
 
 ## Videos
