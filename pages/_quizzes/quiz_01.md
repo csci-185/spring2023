@@ -4,7 +4,7 @@ show_schedule: 1
 title: "Quiz 1: HTML & CSS Introduction"
 type: quiz
 draft: 0
-num: 1
+num: 
 due_date: 2023-02-10
 # exercise_url: "quiz01.zip"
 ---
