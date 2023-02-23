@@ -21,10 +21,10 @@ permalink: /repos-hidden/
 {:.repos}
 | | Name | Links | Notes |
 |--|--|--|--|
-| 1 | Jada Brigman | -- | Missing GitHub |
+| 1 | Jada Brigman | [repo](https://github.com/jbrigma2/csci185) &bull; [website](https://jbrigma2.github.io/csci185/) | |
 | 2 | Carolyn Britsch | -- | Missing GitHub |
 | 3 | Abram Carter | [repo](https://github.com/Abecart/csci185) &bull; [website](https://abecart.github.io/csci185/index.html)  | |
-| 4 | Nick Czentorychy | [repo](https://github.com/nickc-10/csci185-coursework) &bull; website | GitHub Pages not quite configured correctly; missing index.html homepage. |
+| 4 | Nick Czentorychy | [repo](https://github.com/nickc-10/csci185-coursework) &bull; [website](https://nickc-10.github.io/csci185-coursework/) | |
 | 5 | Spencer Guess | [repo](https://github.com/sguessunca/csci185-coursework) &bull; [website](https://sguessunca.github.io/csci185-coursework/) |  |
 | 6 | Mishko Horvat | [repo](https://github.com/MizzUNCA/csci185-coursework) &bull; [website](https://mizzunca.github.io/csci185-coursework) |  |
 | 7 | Lizzie Humphrey | [repo](https://github.com/lizcoolcode/csci185-coursework/blob/master/index.html) &bull; [website](https://lizcoolcode.github.io/csci185-coursework/) |  |
@@ -53,7 +53,7 @@ Student repositories for Section 1:
 | | Name | Links | Notes |
 |--|--|--|--|
 | 1 | Tristan Agbayani | [repo](https://github.com/DaemonTokisaki/CSCI-185) &bull; [website](https://daemontokisaki.github.io/CSCI-185/) | | 
-| 2 | Josie Anderson | [repo](https://github.com/jandersoj/csci185) &bull; [website](https://jandersoj.github.io/csci185) | GitHub pages not quite set up | 
+| 2 | Josie Anderson | [repo](https://github.com/jandersoj/csci185-coursework) &bull; [website](https://jandersoj.github.io/csci185-coursework/) |  | 
 | 3 | Jack Blank | -- | Missing GitHub |
 | 4 | Noah Castevens | [repo](https://github.com/NoahCSC/csci185) &bull; [website](https://noahcsc.github.io/csci185) |  | 
 | 5 | Emanuael Cavender | [repo](https://github.com/Emanuael23/csci185/commits?author=Emanuael23) &bull; [website](https://emanuael23.github.io/csci185/) |  |
@@ -61,7 +61,7 @@ Student repositories for Section 1:
 | 7 | Lucas Giesenschlag | [repo](https://github.com/LucasGiesenschlag/csci185-coursework) &bull; [website](https://lucasgiesenschlag.github.io/csci185-coursework/) |  |
 | 8 | Alex Haney | [repo](https://github.com/amhpurple/csci185) &bull; [website](https://amhpurple.github.io/csci185) |  |
 | 9 | Lyndall Harris | [repo](https://github.com/lyndallharris/csci) &bull; [website](https://lyndallharris.github.io/csci/) |  |
-| 10 | Carson Land | [repo](https://github.com/carson5269/csci185) &bull; website | Missing GitHub Pages |
+| 10 | Carson Land | [repo](https://github.com/carson5269/csci185) &bull; [website](https://carson5269.github.io/csci185/) | |
 | 11 | Karuna Li | [repo](https://github.com/csci185student/csci185-coursework) &bull; [website](https://csci185student.github.io/csci185-coursework/) |  |
 | 12 | Durant Long | [repo](https://github.com/durantlong/csci185) &bull; [website](https://durantlong.github.io/csci185/) |  |
 | 13 | Anna Malushizky | [repo](https://github.com/amalush1/csci185) &bull; [website](https://amalush1.github.io/csci185/) |  |
@@ -70,5 +70,5 @@ Student repositories for Section 1:
 | 16 | Gina Martinez | [repo](https://github.com/paganrage333/csci185) &bull; [website](https://ginapmtz.github.io/csci185/) |  |
 | 17 | Page Ragan | [repo](https://github.com/paganrage333/csci185) &bull; [website](https://paganrage333.github.io/csci185/index.html) |  |
 | 18 | Mariam Rudenko | [repo](https://github.com/rudedanko/csci185.git) &bull; [website](https://rudedanko.github.io/csci185-coursework/) |  |
-| 19 | Andrew Smith | [repo](https://github.com/asmith7654/csci185-coursework) &bull; [website](https://asmith7654.github.com/csci185-coursework) | GitHub pages link broken |
+| 19 | Andrew Smith | [repo](https://github.com/asmith7654/csci185-coursework) &bull; [website](https://asmith7654.github.io/csci185-coursework/) | |
 | 20 | Simon Stout | [repo](https://github.com/sstout660/csci185-coursework) &bull; [website](https://sstout660.github.io/csci185-coursework/) |  |
