@@ -58,7 +58,7 @@ Student repositories for Section 1:
 | 4 | Noah Castevens | [repo](https://github.com/NoahCSC/csci185) &bull; [website](https://noahcsc.github.io/csci185) |  | 
 | 5 | Emanuael Cavender | [repo](https://github.com/Emanuael23/csci185/commits?author=Emanuael23) &bull; [website](https://emanuael23.github.io/csci185/) |  |
 | 6 | Ben Gibson | [repo](https://github.com/Benjamin2201/CSCI-185) &bull; [website](https://benjamin2201.github.io/CSCI-183/) | |
-| 7 | Lucas Giesenschlag | [repo](https://github.com/LucasGiesenschlag/csci185-coursework) &bull; [website](https://lucasgiesenschlag.github.io/csci185-coursework/) |  |
+| 7 | Lucas Giesenschlag | [repo](https://github.com/LucasGiesenschlag/csci185-section2) &bull; [website](https://lucasgiesenschlag.github.io/csci185-section2/) |  |
 | 8 | Alex Haney | [repo](https://github.com/amhpurple/csci185) &bull; [website](https://amhpurple.github.io/csci185) |  |
 | 9 | Lyndall Harris | [repo](https://github.com/lyndallharris/csci) &bull; [website](https://lyndallharris.github.io/csci/) |  |
 | 10 | Carson Land | [repo](https://github.com/carson5269/csci185) &bull; [website](https://carson5269.github.io/csci185/) | |
