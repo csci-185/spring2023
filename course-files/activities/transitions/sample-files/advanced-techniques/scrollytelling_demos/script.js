@@ -15,21 +15,14 @@ const elementOutofView = (el) => {
     );
 };
 
-const displayScrollElement = (element) => {
-    element.classList.add("scrolled");
-};
-
-const hideScrollElement = (element) => {
-    element.classList.remove("scrolled");
-};
 
 const handleScrollAnimation = () => {
-    scrollElements.forEach((el) => {
+    scrollElements.forEach(el => {
         if (elementInView(el, 1.25)) {
-            displayScrollElement(el);
+            el.classList.add("scrolled");
         } 
         else if (elementOutofView(el)) {
-            hideScrollElement(el)
+            el.classList.remove("scrolled");
         }
     })
 }
