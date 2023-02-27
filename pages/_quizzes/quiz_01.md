@@ -6,7 +6,6 @@ type: quiz
 draft: 0
 num: 
 due_date: 2023-02-10
-# exercise_url: "quiz01.zip"
 ---
 
 ## 1. Guidelines (Please Read Carefully)
@@ -20,4 +19,4 @@ due_date: 2023-02-10
 2. Take the [practice quiz](../activities/practice-quiz01) <br>(and ask any questions that you have about it during class time or in office hours).
 
 ## 3. Quiz
-The link to the actual quiz will be written on the board in class on Fri, 02/10.
+<a href="../activities/quiz01">Actual Quiz 1</a>
