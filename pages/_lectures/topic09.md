@@ -34,8 +34,8 @@ To round out our HTML & CSS instruction, we'll be going over some advanced CSS t
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Activities
-* Lecture 12: [Background Images & Media](../activities/background-images)
-* Lecture 13: [Transitions](../activities/transitions)
+* Lecture 12: [Background Images & Media Activity](../activities/background-images)
+* Lecture 13: [Transitions Activity](../activities/transitions)
 
 <!-- 
 * [Keyframes](../activities/keyframes) -->
