@@ -27,7 +27,7 @@ To round out our HTML & CSS instruction, we'll be going over some advanced CSS t
 
 ## Slides
 * Lecture 12: <a href="https://docs.google.com/presentation/d/1D1ZxxXK169Lo8jeEaEQV6vL5e4aG6sKdz_tFp73eNFk/edit?usp=sharing" target="_blank">Image Backgrounds & HTML5 Media</a> (Wednesday, 02/22)
-* Lecture 13: <a href="https://docs.google.com/presentation/d/1wIrLmAS8ZXG0DpYrg0k8mhabKKmq2Xano-cSRJ0rLCE/edit?usp=sharing" target="_blank">Pseudoclasses & Transitions Continued</a>
+* Lecture 13: <a href="https://docs.google.com/presentation/d/1wIrLmAS8ZXG0DpYrg0k8mhabKKmq2Xano-cSRJ0rLCE/edit?usp=sharing" target="_blank">L13: Pseudo-classes & transitions continued</a>
 * Lecture 14: Keyframes
 
 ## Videos
