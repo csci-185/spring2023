@@ -9,6 +9,18 @@ Please download the exercise files (below) and attempt one or more of the follow
 
 <a href="/spring2023/course-files/activities/keyframes.zip" class="nu-button">Download Activity Files <i class="fas fa-download"></i></a>
 
+## Cheatsheet
+
+| **Property** | **Description** |
+|--|--|
+| **animation-name** | Name of the keyframe you defined.
+| **animation-timing-function** | e.g., linear, ease-in, ease-out |
+| **animation-delay** | how long to wait before animation starts | 
+| **animation-iteration-count** | How many times animation should repeat | 
+| **animation-direction** | normal, reverse, alternate, alternate-reverse | 
+| **animation-fill-mode** | e.g., forwards, backwards, normal, both (what to do when the animation stops) | 
+| **animation-play-state** | e.g., paused, running | 
+
 
 ## Exercise 1: Landscape
 See if you can create a landscape animation:
