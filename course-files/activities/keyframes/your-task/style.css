@@ -17,6 +17,7 @@ main {
     left: 0;
     z-index: 100;
 }
+
 #sun {
     position: absolute;
     color: #FF3300;
@@ -24,12 +25,25 @@ main {
     left: calc(50vw - 50px); 
     font-size: 200px;
 
-    animation-timing-function: linear;
+    /* animation-timing-function: linear;
     animation-fill-mode: forwards; 
     animation-name: sunrise;
     animation-delay: 1s;
-    animation-duration: 12s;
+    animation-duration: 12s; */
 }
+
+/* @keyframes sunrise {
+    0% { 
+        transform: translate(0, 0);
+        color: #FF3300;
+        font-size: 200px;
+    }
+    100% { 
+        transform: translate(0, -70vh); 
+        color: yellow;
+        font-size: 100px;
+    }
+} */
 
 #cloud1 {
     position: absolute;
@@ -50,24 +64,13 @@ main {
     animation-duration: 18s; */
 }
 
-@keyframes moveCloudHorizontally {
+/* @keyframes moveCloudHorizontally {
     0% { 
         transform: translate(-30vw, 0);
     }
     100% { 
         transform: translate(110vw, 0); 
     }
-}
+} */
 
-@keyframes sunrise {
-    0% { 
-        transform: translate(0, 0);
-        color: #FF3300;
-        font-size: 200px;
-    }
-    100% { 
-        transform: translate(0, -70vh); 
-        color: yellow;
-        font-size: 100px;
-    }
-}
+
