@@ -26,7 +26,7 @@ permalink: /repos-hidden/
 | 3 | Abram Carter | [repo](https://github.com/Abecart/csci185) &bull; [website](https://abecart.github.io/csci185/index.html)  | |
 | 4 | Nick Czentorychy | [repo](https://github.com/nickc-10/csci185-coursework) &bull; [website](https://nickc-10.github.io/csci185-coursework/) | |
 | 5 | Spencer Guess | [repo](https://github.com/sguessunca/csci185-coursework) &bull; [website](https://sguessunca.github.io/csci185-coursework/) |  |
-| 6 | Mishko Horvat | [repo](https://github.com/MizzUNCA/csci185-coursework) &bull; [website](https://mizzunca.github.io/csci185-coursework) |  |
+| 6 | Mishko Horvat | [repo](https://github.com/MizzUNCA/csci185.2) &bull; [website](https://mizzunca.github.io/csci185.2/) |  |
 | 7 | Lizzie Humphrey | [repo](https://github.com/lizcoolcode/csci185-coursework/blob/master/index.html) &bull; [website](https://lizcoolcode.github.io/csci185-coursework/) |  |
 | 8 | Steven Kapugi | [repo](https://github.com/skapugiunca/csci185-coursework) &bull; [website](https://skapugiunca.github.io/csci185-coursework/) |  |
 | 9 | Austin Kerstetter | [repo](https://github.com/Austinkerstetter/csci185) &bull; [website](https://austinkerstetter.github.io/csci185/) |  |
@@ -67,7 +67,7 @@ Student repositories for Section 1:
 | 13 | Anna Malushizky | [repo](https://github.com/amalush1/csci185) &bull; [website](https://amalush1.github.io/csci185/) |  |
 | 14 | Abigail Marcus | [repo](https://github.com/amarcus0724/csci185) &bull; [website](https://amarcus0724.github.io/csci185/) |  |
 | 15 | Catherine Morris | [repo](https://github.com/catboxghost/csci185-coursework) &bull; [website](https://catboxghost.github.io/csci185-coursework/) |  |
-| 16 | Gina Martinez | [repo](https://github.com/paganrage333/csci185) &bull; [website](https://ginapmtz.github.io/csci185/) |  |
+| 16 | Gina Martinez | [repo](https://github.com/GinaPMtz/csci185) &bull; [website](https://ginapmtz.github.io/csci185/) |  |
 | 17 | Page Ragan | [repo](https://github.com/paganrage333/csci185) &bull; [website](https://paganrage333.github.io/csci185/index.html) |  |
 | 18 | Mariam Rudenko | [repo](https://github.com/rudedanko/csci185.git) &bull; [website](https://rudedanko.github.io/csci185-coursework/) |  |
 | 19 | Andrew Smith | [repo](https://github.com/asmith7654/csci185-coursework) &bull; [website](https://asmith7654.github.io/csci185-coursework/) | |
