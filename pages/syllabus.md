@@ -74,7 +74,7 @@ Most Fridays, we will complete a coding / design "tutorial." Tutorials are inten
 You will be given regular homework assignments that are intended to give you additional practice with the course ideas beyond the tutorials. They are each designed to take between 4-6 hours to complete, so leave yourself enough time!
 
 ### Quizzes (10%)
-There will be 2 quizzes, which are intended to ensure that you understand the web design and programming and concepts relevant to the course. Your final exam score can replace one of your quiz scores if you did poorly on a quiz.
+There will be 3 quizzes, which are intended to ensure that you understand the web design and programming and concepts relevant to the course. Your final exam score can replace one of your quiz scores if you did poorly on a quiz.
 
 ### Final Exam (10%)
 There will be a cumulative final exam that will be administered during your regularly scheduled final exam slot.
