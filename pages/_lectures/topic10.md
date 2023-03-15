@@ -25,6 +25,7 @@ This week, we're going to learn about some of the building blocks of programming
 
 ## Slides
 * Lecture 15: <a href="https://docs.google.com/presentation/d/1ljiHLk1hqQLqtuaGjrB1Z1ghWT-wKxokQo79hRt-jGw/edit?usp=sharing" target="_blank">Intro to JavaScript</a>
+* Lecture 16: <a href="https://docs.google.com/presentation/d/139iUuqvpn816KIvvviSk6v1enxRQrYIigmYjOmbylDc/edit?usp=sharing" target="_blank">The Building Blocks of Programming</a> (Part 1)
 
 ## Videos
 
