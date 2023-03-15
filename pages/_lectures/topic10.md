@@ -33,3 +33,4 @@ Videos will be published after class on <a href="https://drive.google.com/drive/
 
 ## Lecture Files
 * Lecture 15: <a href="/spring2023/course-files/lectures/lecture15.zip">Sample Files: Intro to JavaScript</a> (Monday, 03/13)
+* Lecture 15: <a href="/spring2023/course-files/lectures/lecture16.zip">Sample Files: Building Blocks of Programming/a> (Wednesday, 03/15)
