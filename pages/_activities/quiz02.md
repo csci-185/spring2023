@@ -1,6 +1,6 @@
 ---
 layout: two-column
-title: Quiz 2
+title: "Quiz 2: Taco Temple Part II"
 type: tutorial
 draft: 0
 points: 6
