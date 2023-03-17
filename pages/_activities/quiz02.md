@@ -86,7 +86,7 @@ Make the header section look like the picture below, following the guidelines pr
 {:#part2}
 ### Part 2. Google Fonts & Header Styling [15pts]
 
-* [10pts] Use the "Passion One" Google font to style the `h1`, `h2`, ad `h3` tags.
+* [10pts] Use the "Passion One" Google font to style the `h1`, `h2`, and `h3` tags.
 * [2.5pts] Center-align the `h1` tag (Our Menu)
 * [2.5pts] Add some top margin to the `h1` and `h2` tags.
 {:.compact}
@@ -96,13 +96,14 @@ When you're done, the fonts should look like the ones pictured in [Part 3](#part
 
 {:#part3}
 ### Part 3. Main [25pts]
-Within the `main` section of your HTML page, create the following layout by following the guidelines below:
+Within the `main` section of your HTML page, create layout shown below by following the guidelines:
 
-* [10pts] The section with the class of "cards" should be a two-column grid.
+* [12.5pts] The section with the class of "cards" should be a two-column grid (each column should be the same width).
     * Hint: you'll only need to specify the columns, **not** the rows, as the cards will be positioned into the next available grid cell by default.
-* [10pts] Each section with a class of "card" should also be a two-column grid.
-* [2.5pts] Note the spacing between columns, as well as the padding
-* [2.55pts] Make sure you add a border around each card.
+    * Note the spacing between columns and rows
+* [12.5pts] Each section with a class of "card" should also be a two-column grid (the second column should be narrower than the first).
+    * Make sure you add a border around each card
+    * Make sure you apply some padding within each card
 {:.compact}
 
 <a style="text-decoration: none; border: none;" href="/spring2023/assets/images/quizzes/quiz02/main.png" target="_blank"><img class="frame large" src="/spring2023/assets/images/quizzes/quiz02/main.png" /></a>
@@ -131,9 +132,9 @@ Create a rule for all of the "card" sections so when you hover over them:
 
 {:#part6}
 ### Part 6: Responsive Layout [15pts]
-Create a media query that activates with the width of the screen is **800px or less**. Within the media query, implement the following rules:
+Create a media query that activates when the width of the screen is **800px or less**. Within the media query, implement the following rules:
 
-* [10pts] Overide the section with the class of “cards” so that it's one-column grid.
+* [10pts] Overide the section with the class of “cards” so that it's a one-column grid.
 * [5pts] Target the `nav` element and set its display to "none" so that the navigation does not display in the tablet or mobile views.
 
 
@@ -147,7 +148,7 @@ Create a media query that activates with the width of the screen is **800px or l
 
 ### Before you submit
 
-Verify that you've completed all of the tasks and that you're final Taco Temple menu page (mobile/tablet and desktop) looks as similar to the animations (shown below) as possible:
+Verify that you've completed **all 7 tasks** and that you're final Taco Temple menu page (mobile/tablet and desktop) looks as similar as possible to the animations (shown below):
 
 <div class="verify">
     <section>
