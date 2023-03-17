@@ -18,7 +18,12 @@ due_date: 2023-02-10
         margin-top: 40px;
         display: grid;
         grid-template-columns: 3fr 2fr;
-        column-gap: 50px;
+        column-gap: 30px;
+    }
+    .verify > section {
+        border: solid 1px #CCC;
+        border-radius: 4px;
+        padding: 10px;
     }
     .verify img {
         width: 100%;
