@@ -9,13 +9,20 @@ num: 7
 due_date: 2023-03-24
 ---
 
+## Readings / References
+* <a href="https://www.digitalocean.com/community/tutorials/understanding-events-in-javascript" target="_blank">Understanding Events in JavaScript</a>.
+* [Cheatsheet](#cheatsheet) (below)
+
 ## Introduction 
 The goal of today's tutorial is to:
 1. Help you practice using JavaScript to target and modify HTML elements in your DOM Tree.
 2. Continue practicing your CSS skills.
 2. Encourage you to keep thinking about improving the accessibility of your website.
 
-We have created a cheatsheet (below) with examples of different selector methods and approaches to updating the DOM.
+{:#cheatsheet}
+## Cheatsheet
+
+I have created a cheatsheet (below) with examples of different selector methods and approaches to updating the DOM.
 
 ### Selector Methods 
 

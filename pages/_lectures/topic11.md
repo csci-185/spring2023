@@ -13,13 +13,13 @@ Today we will be going over the rules of functions in more detail, and learning 
 * <a href="https://www.w3schools.com/js/js_functions.asp" target="_blank">JavaScript functions</a>. <em>W3Schools</em>
 * <a href="https://www.digitalocean.com/community/tutorials/how-to-define-functions-in-javascript" target="_blank">How To Define Functions in JavaScript</a>. <em>Digital Ocean</em>   
 * <a href="https://www.digitalocean.com/community/tutorials/understanding-events-in-javascript" target="_blank">Understanding Events in JavaScript</a>. <em>Digital Ocean</em>
-* <a href="https://www.digitalocean.com/community/tutorials/understanding-template-literals-in-javascript" target="_blank">Understanding Template Literals in JavaScript</a>. <em>Digital Ocean</em>
 
 ## Slides
-Slides will be posted before class.
+* Lecture 17: <a href="https://docs.google.com/presentation/d/17ARoBimxU4EOxLvCKGkzWgGU9qyo2No9YBnLOd365dE/edit?usp=sharing" target="_blank">Functions</a> (Part 1)
+
 
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
-<!-- ## Lecture Files
-* Lecture 17: <a href="/spring2023/course-files/lectures/lecture17.zip">Sample Files: Functions</a> (Monday, 03/20) -->
+## Lecture Files
+* Lecture 17: <a href="/spring2023/course-files/lectures/lecture17.zip">Sample Files: Functions</a> (Monday, 03/20)

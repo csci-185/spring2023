@@ -22,6 +22,7 @@ This week, we're going to learn about some of the building blocks of programming
 * <a href="https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom" target="_blank">How to Make Changes to the DOM</a>. <em>Digital Ocean</em>
 * <a href="https://www.digitalocean.com/community/tutorials/how-to-modify-attributes-classes-and-styles-in-the-dom" target="_blank">How to Modify Attributes, Classes, and Styles in the DOM</a>.<em>Digital Ocean</em>
 * <a href="https://www.digitalocean.com/community/tutorials/understanding-events-in-javascript" target="_blank">Understanding Events in JavaScript</a>.
+* <a href="https://www.digitalocean.com/community/tutorials/understanding-template-literals-in-javascript" target="_blank">Understanding Template Literals in JavaScript</a>. <em>Digital Ocean</em>
 
 ## Slides
 * Lecture 15: <a href="https://docs.google.com/presentation/d/1ljiHLk1hqQLqtuaGjrB1Z1ghWT-wKxokQo79hRt-jGw/edit?usp=sharing" target="_blank">Intro to JavaScript</a>
