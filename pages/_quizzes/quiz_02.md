@@ -37,4 +37,4 @@ due_date: 2023-03-17
 2. Take the [practice quiz](../activities/practice-quiz02) <br>(and ask any questions that you have about it during class time or in office hours).
 
 ## 3. Quiz
-The link to the quiz will be posted during class on Friday.
+<a href="../activities/quiz02">Actual Quiz 2</a>
