@@ -11,7 +11,11 @@ permalink: /final-project-animation/
 </style>
 
 
-This final project option asks you to apply what you've learned to create an animated, interactive terrarium, aquarium, or space odyssey. To get an idea of what you might make, please see the <a href="https://photos.app.goo.gl/akHuei69rujrveANA" target="_blank">sample videos</a> (as well as the animated gif below). Many (in fact most) of these samples have gone above and beyond the assignment specifications (and thus earned extra credit), but please know that meeting the assignment's minimum requirements is sufficient for earning all the available points. Please calibrate your implementation according to your experience level with programming (i.e. do more if you’re more experienced): you’ll get out of it what you put into it. See the rubric below to get a sense of how you will be evaluated on this assignment.
+This final project option asks you to apply what you've learned to create an animated, interactive terrarium, aquarium, or space odyssey. To get an idea of what you might make, please see the <a href="https://photos.app.goo.gl/akHuei69rujrveANA" target="_blank">sample videos</a> (as well as the animated gif below). I have also included some projects from last semester:
+* [Space Cannibal](https://qhess.github.io/csci185-coursework/projects/project1/SpaceCannibal/index.html), by Quentin Hess
+* [Platform Game](https://wshaw1.github.io/csci185-coursework/project2/index.html), by Henry Shaw & Davin Shim
+
+Most of these samples shown above have gone above and beyond the assignment specifications (and thus earned extra credit), but please know that meeting the assignment's minimum requirements is sufficient for earning all the available points. Please calibrate your implementation according to your experience level with programming (i.e. do more if you’re more experienced): you’ll get out of it what you put into it. See the rubric below to get a sense of how you will be evaluated on this assignment.
 
 <img class="frame center med-lg" src="/spring2023/assets/images/project01/animation.gif" />
 

@@ -29,8 +29,6 @@ If you have another idea for a project that does not fall into one of the catego
 ## 2. Browse sample projects from past students
 There were many different kinds of projects, and most students learned these technologies as they went along. Don't feel like you need to conform to any of these ideas. Make this assignment your own!
 
-* [Space Cannibal](https://qhess.github.io/csci185-coursework/projects/project1/SpaceCannibal/index.html), by Quentin Hess
-* [Platform Game](https://wshaw1.github.io/csci185-coursework/project2/index.html), by Henry Shaw & Davin Shim
 * [Personal Portfolio](https://dwexler6363.github.io/csci185-coursework/Above%20Free%20Website%20Template%20-%20Free-CSS.com/above/index.html), by Deanna Wexler
 * [Film Festival](https://dhruv-mehra.github.io/cs130-coursework/Premiere/index.html), by Dhruv Mehra
 * [North by Northwestern](https://sakkeo.github.io/cs130-coursework/CS130FinalProject/), by Sakke Overlund
