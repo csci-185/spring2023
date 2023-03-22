@@ -53,7 +53,7 @@ layout: default
                 <td>
                     {% assign abbreviation = assignment.abbreviation %}
                     {% unless assignment.abbreviation %}
-                        {% assign abbreviation = "Lab" | append: assignment.num %}
+                        {% assign abbreviation = "Exam" | append: assignment.num %}
                     {% endunless %} 
                     {% if assignment.draft == 1 %}
                         {{ abbreviation }}
@@ -65,7 +65,11 @@ layout: default
                     {% endif %}                   
                 </td>
                 <td>{{ assignment.title }}</span>
-                <td>{{ assignment.points }} points</td>
+                <td>
+                    {% if assignment.points %}
+                        {{ assignment.points }} points
+                    {% endif %} 
+                </td>
                 <td>{{ assignment.due_date | date: "%a, %m/%d" }}</td>
                 <td>
                     <span class="due-date">
