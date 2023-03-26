@@ -2,7 +2,7 @@
 layout: module
 title: "Conditional Logic"
 type: module
-draft: 1
+draft: 0
 num: 12
 due_date: 2023-03-27
 ---
