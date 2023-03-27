@@ -2,7 +2,7 @@ const redElement = document.querySelector("#red");
 const yellowElement = document.querySelector("#yellow");
 const blueElement = document.querySelector("#blue");
 
-const updateColor = (ev) => {
+function updateColor() {
     /*
     INSTRUCTIONS: Update this function as follows:
     If red is turned on, make the background red.
@@ -32,11 +32,6 @@ const updateColor = (ev) => {
     }
 };
 
-const setBackgroundColor = color => {
+function setBackgroundColor(color) {
     document.querySelector('body').style.backgroundColor = color;
 }
-
-// You can either attach event handlers dynamically (using JavaScript)...
-redElement.onchange = updateColor;
-yellowElement.onchange = updateColor;
-blueElement.onchange = updateColor;

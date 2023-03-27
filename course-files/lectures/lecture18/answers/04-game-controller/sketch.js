@@ -16,7 +16,7 @@ function setup() {
     drawGrid(canvasWidth, canvasHeight);
 }
 
-const moveController = ev => {
+function moveController(ev) {
     console.log(ev.code);
     if (ev.code == 'ArrowUp') {
         console.log('up arrow!');
