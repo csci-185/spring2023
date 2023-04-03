@@ -15,6 +15,7 @@ due_date: 2023-04-03
 
 ## Slides
 Slides will be posted before class.
+
 <!-- * <a href="https://docs.google.com/presentation/d/1YpQ_wzcyhUWG64uNMSfW4QKO4lS9ZLL2mJYjMrRJMoY/edit?usp=sharing" target="_blank">Lecture 20: While Loops</a>
 * <a href="https://docs.google.com/presentation/d/18sw2IdnWGCUZIzlEC-c_ZqrFVUA598fLVNYjTWXpq34/edit?usp=sharing" target="_blank">Lecture 21: For Loops & Lists</a> -->
 
