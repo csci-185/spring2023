@@ -14,13 +14,12 @@ due_date: 2023-04-03
 * <a href="https://www.digitalocean.com/community/tutorials/for-loops-for-of-loops-and-for-in-loops-in-javascript" target="_blank">For Loops, For...Of Loops and For...In Loops in JavaScript</a>. <em>Digital Ocean</em>  
 
 ## Slides
-Slides will be posted before class.
+* <a href="https://docs.google.com/presentation/d/1YpQ_wzcyhUWG64uNMSfW4QKO4lS9ZLL2mJYjMrRJMoY/edit?usp=sharing" target="_blank">Lecture 20: While Loops</a>
 
-<!-- * <a href="https://docs.google.com/presentation/d/1YpQ_wzcyhUWG64uNMSfW4QKO4lS9ZLL2mJYjMrRJMoY/edit?usp=sharing" target="_blank">Lecture 20: While Loops</a>
-* <a href="https://docs.google.com/presentation/d/18sw2IdnWGCUZIzlEC-c_ZqrFVUA598fLVNYjTWXpq34/edit?usp=sharing" target="_blank">Lecture 21: For Loops & Lists</a> -->
+<!-- * <a href="https://docs.google.com/presentation/d/18sw2IdnWGCUZIzlEC-c_ZqrFVUA598fLVNYjTWXpq34/edit?usp=sharing" target="_blank">Lecture 21: For Loops & Lists</a> -->
 
 ## Videos
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Lecture Files
-* Lecture 20: <a href="/spring2023/course-files/lectures/lecture18.zip">Sample Files: Loops</a> (Monday, 04/03)
+* Lecture 20: <a href="/spring2023/course-files/lectures/lecture20.zip">Sample Files: Loops</a> (Monday, 04/03)
