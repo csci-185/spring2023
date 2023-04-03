@@ -17,4 +17,4 @@ due_date: 2023-03-27
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Lecture Files
-* Lecture 18: <a href="/spring2023/course-files/lectures/lecture18.zip">Sample Files: Functions</a> (Monday, 03/27)
+* Lecture 18: <a href="/spring2023/course-files/lectures/lecture18.zip">Sample Files: Conditional Statements</a> (Monday, 03/27)
