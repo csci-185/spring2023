@@ -33,6 +33,8 @@ function draw() {
 }
 
 
+// this function's job is to draw a car based on the 
+// parameters the user passes in (x, y, size, fillColor, and wheelColor)
 function drawCar(x, y, size, fillColor, wheelColor='black') {
     strokeWeight(0);
     

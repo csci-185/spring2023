@@ -3,13 +3,11 @@ const canvasHeight = window.innerHeight;
 const colors = ["#08415c", "#e1f0c4", "#6bab90", "#55917f", "#5e4c5a"];
 
 function randomFloat(min, max) { 
-	// min and max included 
-	return Math.random() * (max - min + 1) + min;
+    return Math.random() * (max - min) + min;
 }
 
 function randomInt(min, max) { 
-	// min and max included 
-	return Math.floor(randomFloat(min, max));
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 /**
