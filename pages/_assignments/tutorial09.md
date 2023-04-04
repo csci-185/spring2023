@@ -33,6 +33,15 @@ due_date: 2023-04-07
     .span2 {
         grid-column: 1 / span 2;
     }
+
+    @media screen and (max-width: 500px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+        .span2 {
+            grid-column: 1 / span 1;
+        }
+    }
 </style>
 
 <a class="nu-button" href="/spring2023/course-files/tutorials/tutorial09.zip" target="_blank">
