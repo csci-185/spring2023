@@ -3,13 +3,25 @@ layout: module
 title: "Web APIs"
 type: module
 num: 14
-draft: 1
-due_date: 2023-04-10
+draft: 0
+due_date: 2023-04-12
 ---
 
+In this unit, we are going to be learning about data, and how websites use it to generate web pages using JavaScript.
 
-## Essential Questions
 
-## Lecture
+## Readings
+* <a href="https://www.freecodecamp.org/news/how-to-use-rest-api/" target="_blank">How to Use REST APIs – A Complete Beginner's Guide</a>. <em>Free Code Camp</em>  
+* <a href="https://www.codeinwp.com/blog/fetch-api-tutorial-for-beginners/" target="_blank">Fetch API Tutorial for Beginners: How to Use Fetch API</a>. <em>Lazaris, Louis</em>  
+* <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">Using Fetch</a>. <em>Mozilla Developer Network</em>  
 
-## Activities
+
+## Slides
+Slides will be posted before class.
+<!-- * <a href="https://docs.google.com/presentation/d/1YpQ_wzcyhUWG64uNMSfW4QKO4lS9ZLL2mJYjMrRJMoY/edit?usp=sharing" target="_blank">Lecture 20: While Loops</a> -->
+
+## Videos
+Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
+
+## Lecture Files
+Forthcoming
