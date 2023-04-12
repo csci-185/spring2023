@@ -3,8 +3,9 @@
 async function fetchCourses() {
     const url = `https://meteor.unca.edu/registrar/class-schedules/api/v1/courses/2023/fall/`;
     data = await fetch(url).then(response => response.json());
-    displayResults(data);
 } 
+fetchCourses();
+
 /* Your Tasks:
     1. Output the title of the first course to the console.
     2. Output the name of the course's instructor to the console.
@@ -21,6 +22,9 @@ async function fetchCourses() {
             * Select which term they want to view?
             * Only view classes that meet on Tuesdays and Thursdays? 
 */
-function displayResults(data) {
+
+
+function search() {
     console.log(data);
+    const searchTerm = document.querySelector('#search_term').value;
 }

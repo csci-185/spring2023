@@ -3,7 +3,6 @@
 async function fetchCourses() {
     const url = `https://meteor.unca.edu/registrar/class-schedules/api/v1/courses/2023/fall/`;
     data = await fetch(url).then(response => response.json());
-    displayResults(data);
 } 
 /* Your Tasks:
     1. Output the title of the first course to the console.
@@ -21,9 +20,13 @@ async function fetchCourses() {
             * Select which term they want to view?
             * Only view classes that meet on Tuesdays and Thursdays? 
 */
-function displayResults(data) {
+fetchCourses();
+
+function search() {
     console.log(data);
-    const container = document.querySelector('#results');
+    const searchTerm = document.querySelector('#search_term').value;
+    const container = document.querySelector('.courses');
+    container.innerHTML = '';
     for (let i = 0; i < data.length; i++) {
         const course = data[i];
 
@@ -32,13 +35,21 @@ function displayResults(data) {
         if (course.Instructors.length > 0) {
             instructor = course.Instructors[0].Name;
         }
-        if (course.Department == 'CSCI') {
+        let include = false;
+        if (course.Department == searchTerm) {
+            include = true;
+        } else if (searchTerm == '') {
+            include = true;
+        }
+        if (include) {
             const template = `
-                <section>
-                    <h3>${course.Code}: ${course.Title}</h3>
-                    <ul>
-                        <li>${instructor}</li>
-                    </ul>
+                <section class="course">
+                    <h2>${course.Code}: ${course.Title}</h2>
+                    <p>
+                    ${course.Days} &bull; ${course.Location.FullLocation} &bull; ${course.Hours} credit hour(s)
+                    </p>
+                    <p><strong>${instructor}</strong></p>
+
                 </section>`;
             container.insertAdjacentHTML('beforeend', template);
         }
