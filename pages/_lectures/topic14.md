@@ -19,7 +19,6 @@ In this unit, we are going to be learning about data, and how websites use it to
 ## Slides
 Slides will be posted before class.
 
-<!-- these are good to go -->
 <!-- * <a href="https://docs.google.com/presentation/d/10Y0Gl8-NfqNm_vS7nW6VmC8AdBRQSHaorxFGzYC1S58/edit?usp=sharing" target="_blank">Lecture 22: Intro to REST APIs</a>
 * <a href="https://docs.google.com/presentation/d/1X9Z2SpIxojmm9Cj1jzUlEix-xRMDaACWmf7_HOo9QLs/edit?usp=sharing" target="_blank">Lecture 23: JavaScript's Fetch API</a> -->
 
@@ -27,6 +26,4 @@ Slides will be posted before class.
 Videos will be published after class on <a href="https://drive.google.com/drive/folders/1O7exzeo0Wg-RmAN7W20R10SSHdEt75Mx" target="_blank">Google Drive</a>
 
 ## Lecture Files
-Lecture files will be posted before class.
-
-<!-- * Lecture 22: <a href="/spring2023/course-files/lectures/lecture22.zip">Sample Files: Course Lookup</a> (Monday, 04/12) -->
+* Lecture 22: <a href="/spring2023/course-files/lectures/lecture22.zip">Sample Files: Course Lookup</a> (Wednesday, 04/12)
