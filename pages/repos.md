@@ -26,7 +26,7 @@ permalink: /repos-hidden/
 | 3 | Abram Carter | [repo](https://github.com/Abecart/csci185) &bull; [website](https://abecart.github.io/csci185/index.html)  | |
 | 4 | Nick Czentorychy | [repo](https://github.com/nickc-10/csci185-coursework) &bull; [website](https://nickc-10.github.io/csci185-coursework/) | |
 | 5 | Spencer Guess | [repo](https://github.com/sguessunca/csci185-coursework) &bull; [website](https://sguessunca.github.io/csci185-coursework/) |  |
-| 6 | Mishko Horvat | [repo](https://github.com/MizzUNCA/csci185.2) &bull; [website](https://mizzunca.github.io/csci185.2/) |  |
+| 6 | Mishko Horvat | [repo](https://github.com/MizzUNCA/csci-coursework3) &bull; [website](https://mizzunca.github.io/csci-coursework3/) |  |
 | 7 | Lizzie Humphrey | [repo](https://github.com/lizcoolcode/csci185-coursework/blob/master/index.html) &bull; [website](https://lizcoolcode.github.io/csci185-coursework/) |  |
 | 8 | Steven Kapugi | [repo](https://github.com/skapugiunca/csci185-coursework) &bull; [website](https://skapugiunca.github.io/csci185-coursework/) |  |
 | 9 | Austin Kerstetter | [repo](https://github.com/Austinkerstetter/csci185) &bull; [website](https://austinkerstetter.github.io/csci185/) |  |
