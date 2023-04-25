@@ -51,7 +51,8 @@ due_date: 2023-04-24
 > The quiz questions and solutions are posted below:
 > 
 > * <a href="https://docs.google.com/document/d/1JODzhDwsp-_FQT_CuJ0QA9FOCyZWRo9FJTthcEuBovE/edit?usp=sharing" target="_blank">Questions</a>
-* <a href="https://docs.google.com/document/d/1pRumiaUCs-cKo98YhUFgdpzXczjlkGkzwOeNH_Lq-rg/edit?usp=sharing" target="_blank">Solutions</a>
+> * <a href="https://docs.google.com/document/d/1pRumiaUCs-cKo98YhUFgdpzXczjlkGkzwOeNH_Lq-rg/edit?usp=sharing" target="_blank">Solutions</a>
+> * <a href="https://drive.google.com/file/d/1lyvxwOMUve1q6noZQH6xiEF_PhQvyiX4/view?usp=sharing" target="_blank">Video Walkthrough of Solutions</a>
 
 ## 1. Ground Rules (Please Read Carefully)
 Quiz 3 is a paper-based assessment that will be administered **during class** on Monday. You may use your notes, pen and paper, and any "cheat sheats" that you want to make. You may not use a computer. 
