@@ -25,8 +25,33 @@ due_date: 2023-04-24
     img.medium {
         max-width: 550px;
     }
+    blockquote.updates {
+        background-color: #d4edda;
+        border: solid 1px #c3e6cb;
+        margin-top: 0;
+    }
+    blockquote.updates h2, 
+    blockquote.updates h3, 
+    blockquote.updates p, 
+    blockquote.updates li, 
+    blockquote.updates a {
+        color: #155724 !important;
+    }
+    blockquote.updates h2 {
+        border-bottom: solid 1px #155724;
+    }
+    blockquote.updates a:hover {
+        background-color: transparent;
+    }
 
 </style>
+
+{:.updates}
+> ## Actual Quiz
+> The quiz questions and solutions are posted below:
+> 
+> * <a href="https://docs.google.com/document/d/1JODzhDwsp-_FQT_CuJ0QA9FOCyZWRo9FJTthcEuBovE/edit?usp=sharing" target="_blank">Questions</a>
+* <a href="https://docs.google.com/document/d/1pRumiaUCs-cKo98YhUFgdpzXczjlkGkzwOeNH_Lq-rg/edit?usp=sharing" target="_blank">Solutions</a>
 
 ## 1. Ground Rules (Please Read Carefully)
 Quiz 3 is a paper-based assessment that will be administered **during class** on Monday. You may use your notes, pen and paper, and any "cheat sheats" that you want to make. You may not use a computer. 
