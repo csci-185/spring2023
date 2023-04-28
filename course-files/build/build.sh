@@ -4,6 +4,7 @@ python3 zip_it.py ../lectures
 python3 zip_it.py ../tutorials
 python3 zip_it.py ../quizzes
 python3 zip_it.py ../activities
+python3 zip_it.py ../exams
 # python3 zip_it.py ../practice_exams
 # python3 zip_it.py ../projects
 

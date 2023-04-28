@@ -19,7 +19,6 @@ exclude:
   - _assignments/draft
   - course-files/administrative
   - course-files/build
-  - course-files/exams
   - course-files/homework/drafts
   - course-files/tutorials/drafts
   - course-files/lectures/drafts
