@@ -71,7 +71,7 @@ html-css-exercises
 │   ├── img7.jpg
 │   ├── img8.jpg
 │   └── img9.jpg
-├── index.html
+├── index.html      <-- Your new HTML file
 └── pages
     ├── about.html
     └── contact.html
@@ -143,7 +143,7 @@ Create a footer section below your `main` section using the `footer` tag. Within
 <img class="medium" src="/spring2023/assets/images/final-exam/footer.png" />
 
 
-## Part 3: CSS Tasks (60 Points)
+## Part 3: CSS Tasks (56 Points)
 Create a CSS file called `styles.css` that is a ***direct child*** of the `html-css-exercises` folder. If you did it correctly, your file structure should look like this:
 
 ```shell
@@ -162,12 +162,12 @@ html-css-exercises
 ├── pages
 │   ├── about.html
 │   └── contact.html
-└── styles.css
+└── styles.css          <-- Your new CSS file
 ```
 
 Edit your `index.html` file by adding a link to your stylesheet. Then, complete the following tasks within `styles.css`:
 
-### 3.1. Header & Nav Bar (20 Points)
+### 3.1. Header & Nav Bar (16 Points)
 1. Create some style rules for the `body` element:
     * Set the background color to a light gray (`#F0F4EF`)
     * Set the font family to `Arial, Helvetica, sans-serif`
@@ -217,8 +217,11 @@ Create some style rules to set the footer’s background color to `#222222`, and
 1. When the width of the screen is less than `600px`, the `photo-container` section should display **one** card per row.
 {:.compact}
 
+## Part 4: Accessibility Tasks (4 Points)
+Run the WAVE extension and make sure there are no accessibility issues. Correct any issues that you find.
 
-## What to Submit (if this were a real quiz)
+
+## What to Submit
 **Please read carefully:** Doublecheck your work to make sure you've completed all of the tasks. Then, update your homepage by adding a link to `html-css-exercises`. Sarah's final exam looks like this: <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
 
 After committing and syncing your changes to GitHub, paste the following links into the Moodle under the Final Exam submission section:

@@ -61,7 +61,7 @@ Open the `exercise02` folder and examine all of the files. Inside of `main.js`, 
 ```
 
 ## What to Submit
-**Please read carefully:** Doublecheck your work to make sure you've completed the first task (the second task is optional). Then, update your homepage by adding a link to `exercise01` (required) and a link to `exercise02` (optional). Sarah's final exam looks like this: <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
+**Please read carefully:** Doublecheck your work to make sure you've completed the first task (the second task is optional). Then, update your homepage by adding a link to `javascript-exercises/exercise01` (required) and a link to `javascript-exercises/exercise02` (optional). Sarah's final exam looks like this: <a href="https://vanwars.github.io/csci185-coursework/" target="_blank">https://vanwars.github.io/csci185-coursework/</a>
 
 After committing and syncing your changes to GitHub, paste the following links into the Moodle under the Final Exam submission section:
 
