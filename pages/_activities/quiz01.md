@@ -15,7 +15,7 @@ due_date: 2023-02-10
     }
 </style>
 
-<a href="/spring2023/course-files/quizzes/quiz01.zip" class="nu-button">Quiz 1 Starter Files <i class="fas fa-download"></i></a> <a href="/spring2023/course-files/quizzes/quiz01_answers.zip" class="button">Quiz 1 Solutions <i class="fas fa-download"></i></a>
+<a href="/spring2023/course-files/quizzes/quiz01.zip" class="nu-button">Quiz 1 Starter Files <i class="fas fa-download"></i></a>
 
 ## Set Up
 * Inside your `csci185` folder, create a folder called `quizzes`. 

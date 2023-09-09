@@ -43,7 +43,7 @@ due_date: 2023-02-10
 
 ## Set-Up
 
-<a href="/spring2023/course-files/quizzes/quiz02.zip" class="nu-button">Quiz 2 Starter Files <i class="fas fa-download"></i></a>  <a href="/spring2023/course-files/quizzes/quiz02_answers.zip" class="button">Quiz 2 Solutions <i class="fas fa-download"></i></a>
+<a href="/spring2023/course-files/quizzes/quiz02.zip" class="nu-button">Quiz 2 Starter Files <i class="fas fa-download"></i></a>
 
 * Download the starter files and unzip them. They should be unzipped in a folder called `quiz02`.
 * Move your `quiz02` folder into your `csci185/quizzes` folder.
