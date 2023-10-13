@@ -36,5 +36,5 @@ due_date: 2023-03-17
 1. Review the <a href="https://docs.google.com/document/d/1kh9RulHklvmuVpsv35Zz_GSizm8Y5yRhxSMPaudRXX8/edit?usp=sharing" target="_blank">Quiz 2 Study Guide</a>
 2. Take the [practice quiz](../activities/practice-quiz02) <br>(and ask any questions that you have about it during class time or in office hours).
 
-## 3. Quiz
-<a href="../activities/quiz02">Actual Quiz 2</a>
+<!-- ## 3. Quiz
+<a href="../activities/quiz02">Actual Quiz 2</a> -->
